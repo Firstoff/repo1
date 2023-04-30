@@ -13,8 +13,9 @@
             "id": "https://cyberflat.ru/pominutnaya-statistika-zagruzki-cpu-za-poslednie-255-minut/",
             "url": "https://cyberflat.ru/pominutnaya-statistika-zagruzki-cpu-za-poslednie-255-minut/",
             "title": "поминутная статистика загрузки цпу за последние 255 минут",
-            "summary": "DECLARE @ts BIGINT; DECLARE @lastNmin TINYINT; SET @lastNmin =255; SELECT @ts = (SELECT cpu_ticks / ( cpu_ticks / ms_ticks ) FROM sys.dm_os_sys_info); SELECT TOP(@lastNmin) Dateadd(ms, -1 * ( @ts - [timestamp] ), Getdate())AS [EventTime], sqlprocessutilization AS [SQL Server Utilization], 100 - systemidle - sqlprocessutilization AS&hellip;",
-            "content_html": "<pre class=\"line-numbers  language-html\"><code>DECLARE @ts BIGINT;\n\nDECLARE @lastNmin TINYINT;\n\nSET @lastNmin =255;\n\nSELECT @ts = (SELECT cpu_ticks / ( cpu_ticks / ms_ticks )\n\nFROM sys.dm_os_sys_info);\n\nSELECT TOP(@lastNmin) Dateadd(ms, -1 * ( @ts - [timestamp] ), Getdate())AS\n\n[EventTime],\n\nsqlprocessutilization AS\n\n[SQL Server Utilization],\n\n100 - systemidle - sqlprocessutilization AS\n\n[Other Process CPU_Utilization],\n\nsystemidle AS\n\n[System Idle]\n\nFROM (SELECT\n\nrecord.value('(./Record/@id)[1]', 'int') AS record_id,\n\nrecord.value('(./Record/SchedulerMonitorEvent/SystemHealth/SystemIdle)[1]', 'int') AS [SystemIdle],\n\nrecord.value('(./Record/SchedulerMonitorEvent/SystemHealth/ProcessUtilization)[1]', 'int')AS [SQLProcessUtilization],\n\n[timestamp]\n\nFROM (SELECT[timestamp],\n\nCONVERT(XML, record) AS [record]\n\nFROM sys.dm_os_ring_buffers\n\nWHERE ring_buffer_type = N'RING_BUFFER_SCHEDULER_MONITOR'\n\nAND record LIKE'%%')AS x)AS y\n\nORDER BY record_id DESC;</code></pre>",
+            "summary": "```sql DECLARE @ts BIGINT; DECLARE @lastNmin TINYINT; SET @lastNmin =255; SELECT @ts = (SELECT cpu_ticks / ( cpu_ticks / ms_ticks ) FROM sys.dm_os_sys_info); SELECT TOP(@lastNmin) Dateadd(ms, -1 * ( @ts - [timestamp] ), Getdate())AS [EventTime], sqlprocessutilization AS [SQL Server Utilization], 100 - systemidle - sqlprocessutilization&hellip;",
+            "content_html": "<pre class=\"line-numbers  language-html\"><code>```sql\nDECLARE @ts BIGINT;\nDECLARE @lastNmin TINYINT;\nSET @lastNmin =255;\nSELECT @ts = (SELECT cpu_ticks / ( cpu_ticks / ms_ticks )\nFROM sys.dm_os_sys_info);\nSELECT TOP(@lastNmin) Dateadd(ms, -1 * ( @ts - [timestamp] ), Getdate())AS\n[EventTime],\nsqlprocessutilization AS\n[SQL Server Utilization],\n100 - systemidle - sqlprocessutilization AS\n[Other Process CPU_Utilization],\nsystemidle AS\n[System Idle]\nFROM (SELECT\nrecord.value('(./Record/@id)[1]', 'int') AS record_id,\nrecord.value('(./Record/SchedulerMonitorEvent/SystemHealth/SystemIdle)[1]', 'int') AS [SystemIdle],\nrecord.value('(./Record/SchedulerMonitorEvent/SystemHealth/ProcessUtilization)[1]', 'int')AS [SQLProcessUtilization],\n[timestamp]\nFROM (SELECT[timestamp],\nCONVERT(XML, record) AS [record]\nFROM sys.dm_os_ring_buffers\nWHERE ring_buffer_type = N'RING_BUFFER_SCHEDULER_MONITOR'\nAND record LIKE'%%')AS x)AS y\nORDER BY record_id DESC;\n```</code></pre>",
+            "image": "https://cyberflat.ru/media/posts/6/kandinsky-download-1682772070477.png",
             "author": {
                 "name": "Korchagin"
             },
@@ -22,7 +23,7 @@
                    "sql"
             ],
             "date_published": "2023-04-30T17:27:39+03:00",
-            "date_modified": "2023-04-30T17:27:56+03:00"
+            "date_modified": "2023-04-30T17:32:41+03:00"
         },
         {
             "id": "https://cyberflat.ru/maxdop/",
