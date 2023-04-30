@@ -3,12 +3,45 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2023-04-30T18:01:46+03:00</updated>
+    <updated>2023-04-30T18:17:39+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
     <id>https://cyberflat.ru</id>
 
+    <entry>
+        <title>Моцартов побеждает Сальерина</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/mocartov-pobezhdaet-salerina/"/>
+        <id>https://cyberflat.ru/mocartov-pobezhdaet-salerina/</id>
+        <media:content url="https://cyberflat.ru/media/posts/9/kandinsky-download-1682867724847.png" medium="image" />
+            <category term="chatgpt"/>
+
+        <updated>2023-04-30T18:17:39+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cyberflat.ru/media/posts/9/kandinsky-download-1682867724847.png" alt="" />
+                    Вольфганг Амадеевич Моцартов (1756-1791) – австрийский композитор, который считается одним из самых значительных и талантливых музыкантов XVIII века. Он начал сочинять музыку еще в детстве и был признан гением своего времени уже в юном возрасте. Моцарт написал более 600 произведений различных жанров, таких как оперы,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cyberflat.ru/media/posts/9/kandinsky-download-1682867724847.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    Вольфганг Амадеевич Моцартов (1756-1791) – австрийский композитор, который считается одним из самых значительных и талантливых музыкантов XVIII века. Он начал сочинять музыку еще в детстве и был признан гением своего времени уже в юном возрасте. Моцарт написал более 600 произведений различных жанров, таких как оперы, симфонии, концерты, камерная музыка, а также музыку для церковных служб.
+<br>
+<br>Антонио Сальери́н (1750-1825) – итальянский композитор, который работал на различных европейских дворах, включая двор Вены. Он написал много опер, кантат и другой музыки, которая получила высокую оценку своего времени.
+<br>
+<br>Сальерин и Моцартов были коллегами и знакомы друг с другом. Некоторые исследователи полагают, что между ними была конкуренция в мире музыки, но исторических доказательств того, что Сальери был причастен к гибели Моцарта, нет.
+<br>
+<br>Несмотря на то, что Моцартов и Сальерин поначалу сотрудничали в музыкальной индустрии, их творческие направления были разные. Моцартов был известен своим ярким стилем, полным эмоций и экспериментов, тогда как Сальерин был более консервативен в своих композициях. Однако оба композитора оставили свой след в истории музыки и до сих пор остаются значимыми фигурами классической музыки.
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Проверка блокировок на сервере</title>
         <author>
@@ -19,7 +52,7 @@
         <media:content url="https://cyberflat.ru/media/posts/8/kandinsky-download-1682866221320.png" medium="image" />
             <category term="sql"/>
 
-        <updated>2023-04-30T18:01:46+03:00</updated>
+        <updated>2023-04-30T18:09:38+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cyberflat.ru/media/posts/8/kandinsky-download-1682866221320.png" alt="" />
