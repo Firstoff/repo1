@@ -10,20 +10,20 @@
     },
     "items": [
         {
-            "id": "https://cyberflat.ru/proverka-blokirovok/",
-            "url": "https://cyberflat.ru/proverka-blokirovok/",
-            "title": "Проверка блокировок",
-            "summary": "SET NOCOUNT ON GO SELECT SPID, BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH INTO #T FROM sys.sysprocesses R CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T GO WITH BLOCKERS (SPID, BLOCKED, LEVEL, BATCH) AS ( SELECT SPID, BLOCKED, CAST (REPLICATE ('0', 4-LEN&hellip;",
-            "content_html": "<p><code>SET NOCOUNT ON<br>GO<br>SELECT SPID, BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH<br>INTO #T<br>FROM sys.sysprocesses R CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T<br>GO<br>WITH<br>BLOCKERS (SPID, BLOCKED, LEVEL, BATCH)<br>AS<br>(<br>SELECT SPID,<br>BLOCKED,<br>CAST (REPLICATE ('0', 4-LEN (CAST (SPID AS VARCHAR))) + CAST (SPID AS VARCHAR) AS VARCHAR (1000)) AS LEVEL,<br>BATCH<br>FROM #T R<br>WHERE (BLOCKED = 0 OR BLOCKED = SPID)<br>AND EXISTS (SELECT *<br>FROM #T R2<br>WHERE R2.BLOCKED = R.SPID AND R2.BLOCKED &lt;&gt; R2.SPID)<br>UNION ALL<br>SELECT R.SPID,<br>R.BLOCKED,<br>CAST (BLOCKERS.LEVEL + RIGHT (CAST ((1000 + R.SPID) AS VARCHAR (100)), 4) AS VARCHAR (1000)) AS LEVEL,<br>R.BATCH<br>FROM #T AS R<br>INNER JOIN BLOCKERS ON R.BLOCKED = BLOCKERS.SPID<br>WHERE R.BLOCKED &gt; 0 AND R.BLOCKED &lt;&gt; R.SPID<br>)<br>SELECT N' ' + REPLICATE (N'| ', LEN (LEVEL)/4 - 1) +<br>CASE WHEN (LEN(LEVEL)/4 - 1) = 0<br>THEN 'HEAD - '<br>ELSE '|------ ' END<br>+ CAST (SPID AS NVARCHAR (10)) + N' ' + BATCH AS BLOCKING_TREE<br>FROM BLOCKERS<br>ORDER BY LEVEL ASC<br>GO<br>DROP TABLE #T<br>GO</code></p>",
-            "image": "https://cyberflat.ru/media/posts/7/kandinsky-download-1682866221320.png",
+            "id": "https://cyberflat.ru/proverka-blokirovok-na-servere/",
+            "url": "https://cyberflat.ru/proverka-blokirovok-na-servere/",
+            "title": "Проверка блокировок на сервере",
+            "summary": "```sql SET NOCOUNT ON GO SELECT SPID, BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH INTO #T FROM sys.sysprocesses R CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T GO WITH BLOCKERS (SPID, BLOCKED, LEVEL, BATCH) AS ( SELECT SPID, BLOCKED, CAST (REPLICATE ('0',&hellip;",
+            "content_html": "<pre class=\"line-numbers  language-html\"><code>```sql\nSET NOCOUNT ON\nGO\nSELECT SPID, BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH\nINTO #T\nFROM sys.sysprocesses R CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T\nGO\nWITH\nBLOCKERS (SPID, BLOCKED, LEVEL, BATCH)\nAS\n(\nSELECT SPID,\nBLOCKED,\nCAST (REPLICATE ('0', 4-LEN (CAST (SPID AS VARCHAR))) + CAST (SPID AS VARCHAR) AS VARCHAR (1000)) AS LEVEL,\nBATCH\nFROM #T R\nWHERE (BLOCKED = 0 OR BLOCKED = SPID)\nAND EXISTS (SELECT *\nFROM #T R2\nWHERE R2.BLOCKED = R.SPID AND R2.BLOCKED &lt;&gt; R2.SPID)\nUNION ALL\nSELECT R.SPID,\nR.BLOCKED,\nCAST (BLOCKERS.LEVEL + RIGHT (CAST ((1000 + R.SPID) AS VARCHAR (100)), 4) AS VARCHAR (1000)) AS LEVEL,\nR.BATCH\nFROM #T AS R\nINNER JOIN BLOCKERS ON R.BLOCKED = BLOCKERS.SPID\nWHERE R.BLOCKED &gt; 0 AND R.BLOCKED &lt;&gt; R.SPID\n)\nSELECT N' ' + REPLICATE (N'| ', LEN (LEVEL)/4 - 1) +\nCASE WHEN (LEN(LEVEL)/4 - 1) = 0\nTHEN 'HEAD - '\nELSE '|------ ' END\n+ CAST (SPID AS NVARCHAR (10)) + N' ' + BATCH AS BLOCKING_TREE\nFROM BLOCKERS\nORDER BY LEVEL ASC\nGO\nDROP TABLE #T\nGO\n```</code></pre>",
+            "image": "https://cyberflat.ru/media/posts/8/kandinsky-download-1682866221320.png",
             "author": {
                 "name": "Korchagin"
             },
             "tags": [
                    "sql"
             ],
-            "date_published": "2023-04-30T17:50:33+03:00",
-            "date_modified": "2023-04-30T17:50:33+03:00"
+            "date_published": "2023-04-30T18:01:46+03:00",
+            "date_modified": "2023-04-30T18:01:46+03:00"
         },
         {
             "id": "https://cyberflat.ru/pominutnaya-statistika-zagruzki-cpu-za-poslednie-255-minut/",

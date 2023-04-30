@@ -3,33 +3,72 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2023-04-30T17:50:33+03:00</updated>
+    <updated>2023-04-30T18:01:46+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
     <id>https://cyberflat.ru</id>
 
     <entry>
-        <title>Проверка блокировок</title>
+        <title>Проверка блокировок на сервере</title>
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://cyberflat.ru/proverka-blokirovok/"/>
-        <id>https://cyberflat.ru/proverka-blokirovok/</id>
-        <media:content url="https://cyberflat.ru/media/posts/7/kandinsky-download-1682866221320.png" medium="image" />
+        <link href="https://cyberflat.ru/proverka-blokirovok-na-servere/"/>
+        <id>https://cyberflat.ru/proverka-blokirovok-na-servere/</id>
+        <media:content url="https://cyberflat.ru/media/posts/8/kandinsky-download-1682866221320.png" medium="image" />
             <category term="sql"/>
 
-        <updated>2023-04-30T17:50:33+03:00</updated>
+        <updated>2023-04-30T18:01:46+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://cyberflat.ru/media/posts/7/kandinsky-download-1682866221320.png" alt="" />
-                    SET NOCOUNT ON GO SELECT SPID, BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH INTO #T FROM sys.sysprocesses R CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T GO WITH BLOCKERS (SPID, BLOCKED, LEVEL, BATCH) AS ( SELECT SPID, BLOCKED, CAST (REPLICATE ('0', 4-LEN&hellip;
+                        <img src="https://cyberflat.ru/media/posts/8/kandinsky-download-1682866221320.png" alt="" />
+                    ```sql SET NOCOUNT ON GO SELECT SPID, BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH INTO #T FROM sys.sysprocesses R CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T GO WITH BLOCKERS (SPID, BLOCKED, LEVEL, BATCH) AS ( SELECT SPID, BLOCKED, CAST (REPLICATE ('0',&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://cyberflat.ru/media/posts/7/kandinsky-download-1682866221320.png" class="type:primaryImage" alt="" /></p>
-                <p><code>SET NOCOUNT ON<br>GO<br>SELECT SPID, BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH<br>INTO #T<br>FROM sys.sysprocesses R CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T<br>GO<br>WITH<br>BLOCKERS (SPID, BLOCKED, LEVEL, BATCH)<br>AS<br>(<br>SELECT SPID,<br>BLOCKED,<br>CAST (REPLICATE ('0', 4-LEN (CAST (SPID AS VARCHAR))) + CAST (SPID AS VARCHAR) AS VARCHAR (1000)) AS LEVEL,<br>BATCH<br>FROM #T R<br>WHERE (BLOCKED = 0 OR BLOCKED = SPID)<br>AND EXISTS (SELECT *<br>FROM #T R2<br>WHERE R2.BLOCKED = R.SPID AND R2.BLOCKED &lt;&gt; R2.SPID)<br>UNION ALL<br>SELECT R.SPID,<br>R.BLOCKED,<br>CAST (BLOCKERS.LEVEL + RIGHT (CAST ((1000 + R.SPID) AS VARCHAR (100)), 4) AS VARCHAR (1000)) AS LEVEL,<br>R.BATCH<br>FROM #T AS R<br>INNER JOIN BLOCKERS ON R.BLOCKED = BLOCKERS.SPID<br>WHERE R.BLOCKED &gt; 0 AND R.BLOCKED &lt;&gt; R.SPID<br>)<br>SELECT N' ' + REPLICATE (N'| ', LEN (LEVEL)/4 - 1) +<br>CASE WHEN (LEN(LEVEL)/4 - 1) = 0<br>THEN 'HEAD - '<br>ELSE '|------ ' END<br>+ CAST (SPID AS NVARCHAR (10)) + N' ' + BATCH AS BLOCKING_TREE<br>FROM BLOCKERS<br>ORDER BY LEVEL ASC<br>GO<br>DROP TABLE #T<br>GO</code></p>
+                    <p><img src="https://cyberflat.ru/media/posts/8/kandinsky-download-1682866221320.png" class="type:primaryImage" alt="" /></p>
+                <pre class="line-numbers  language-html"><code>```sql
+SET NOCOUNT ON
+GO
+SELECT SPID, BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH
+INTO #T
+FROM sys.sysprocesses R CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T
+GO
+WITH
+BLOCKERS (SPID, BLOCKED, LEVEL, BATCH)
+AS
+(
+SELECT SPID,
+BLOCKED,
+CAST (REPLICATE ('0', 4-LEN (CAST (SPID AS VARCHAR))) + CAST (SPID AS VARCHAR) AS VARCHAR (1000)) AS LEVEL,
+BATCH
+FROM #T R
+WHERE (BLOCKED = 0 OR BLOCKED = SPID)
+AND EXISTS (SELECT *
+FROM #T R2
+WHERE R2.BLOCKED = R.SPID AND R2.BLOCKED &lt;&gt; R2.SPID)
+UNION ALL
+SELECT R.SPID,
+R.BLOCKED,
+CAST (BLOCKERS.LEVEL + RIGHT (CAST ((1000 + R.SPID) AS VARCHAR (100)), 4) AS VARCHAR (1000)) AS LEVEL,
+R.BATCH
+FROM #T AS R
+INNER JOIN BLOCKERS ON R.BLOCKED = BLOCKERS.SPID
+WHERE R.BLOCKED &gt; 0 AND R.BLOCKED &lt;&gt; R.SPID
+)
+SELECT N' ' + REPLICATE (N'| ', LEN (LEVEL)/4 - 1) +
+CASE WHEN (LEN(LEVEL)/4 - 1) = 0
+THEN 'HEAD - '
+ELSE '|------ ' END
++ CAST (SPID AS NVARCHAR (10)) + N' ' + BATCH AS BLOCKING_TREE
+FROM BLOCKERS
+ORDER BY LEVEL ASC
+GO
+DROP TABLE #T
+GO
+```</code></pre>
             ]]>
         </content>
     </entry>
