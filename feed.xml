@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Cyberflat.ru</title>
+    <link href="https://cyberflat.ru/feed.xml" rel="self" />
+    <link href="https://cyberflat.ru" />
+    <updated>2023-04-18T06:59:43+03:00</updated>
+    <author>
+        <name>Korchagin</name>
+    </author>
+    <id>https://cyberflat.ru</id>
+
+    <entry>
+        <title>MAXDOP</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/maxdop/"/>
+        <id>https://cyberflat.ru/maxdop/</id>
+            <category term="sql"/>
+
+        <updated>2023-04-18T00:15:33+03:00</updated>
+            <summary>
+                <![CDATA[
+                    sp_configure &#39;show advanced options&#39;, 1; go reconfigure; go sp_configure &#39;max degree of parallelism&#39;, 4; go reconfigure; go
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <pre><code class="language-sql">sp_configure &#39;show advanced options&#39;, 1;
+go
+reconfigure;
+go
+sp_configure &#39;max degree of parallelism&#39;, 4;
+go
+reconfigure;
+go
+</code></pre>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>ищем базу данных из своего списка и её размер в списке серверов</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/ishchem-bazu-dannyh-iz-svoego-spiska-i-eyo-razmer-v-spiske-serverov/"/>
+        <id>https://cyberflat.ru/ishchem-bazu-dannyh-iz-svoego-spiska-i-eyo-razmer-v-spiske-serverov/</id>
+            <category term="powershell"/>
+
+        <updated>2023-04-18T00:25:49+03:00</updated>
+            <summary>
+                <![CDATA[
+                    Remove-Variable * -ErrorAction SilentlyContinue # # Этот код ищет базы данных из своего списка и их размер в списке серверов # $x = 1 #read-host "" $serverList = Get-Content "ServerList.txt" $databaseList = Get-Content "DatabaseList.txt" $query = "select count(name) from sysdatabases where name = '{0}'" $queryexistbase&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <blockquote>
+<p>Remove-Variable * -ErrorAction SilentlyContinue<br><br>#<br># Этот код ищет базы данных из своего списка и их размер в списке серверов<br>#<br>$x = 1<br>#read-host ""<br><br>$serverList = Get-Content "ServerList.txt"<br>$databaseList = Get-Content "DatabaseList.txt"<br>$query = "select count(name) from sysdatabases where name = '{0}'"<br>$queryexistbase = "SELECT COUNT(*) as [Count] FROM sys.objects"<br>#$querydbsizeGB = "SELECT SUM(CAST(size / 128.0 /1024 AS DECIMAL(17,2))) AS [Размер в GB] FROM sys.database_files"<br>$querydbsizeMB = "SELECT SUM(CAST(size / 128.0 AS DECIMAL(17,2))) AS [Размер в MB] FROM sys.database_files"<br>$outputPath = "Output.log"<br>$backupDirectory = "C:\backup"<br><br>foreach ($server in $serverList) {<br>    foreach ($dbname in $databaseList) {<br>        $queryDb = $query -f $dbname<br>        $SQLInstances = $server<br>        try {<br>            if ($(Invoke-SQLCmd -ServerInstance $SQLInstances -Database master -Query $queryDb -QueryTimeout 3600 -Verbose -ErrorAction Stop).Column1 -gt 0) {<br>                $results = Invoke-Sqlcmd -ServerInstance $server -Database $dbname -Query $queryexistbase -ErrorAction SilentlyContinue<br>                $dbSize = Invoke-Sqlcmd -ServerInstance $server -Database $dbname -Query $querydbsizeMB -ErrorAction SilentlyContinue<br>                if ($results) {<br>                    $count = $results.Count<br>                } else {<br>                    $count = 0<br>                }<br><br>                # Создать резервную копию базы данных<br>                $backupFile = "{0}\{1}_do_{2}.bak" -f $backupDirectory, $dbname, (Get-Date).AddDays($x).ToString("ddMMyyyy")<br>                Backup-SqlDatabase -ServerInstance $server -Database $dbname -BackupFile $backupFile<br><br>                Write-Output "$server,$dbname,$($dbsize.'Размер в MB')"<br>                #Write-host 'Размер SQL базы в MB' = $dbsize.'Размер в MB' # обрати внимание, здесь значение из массива, а не переменная и текст !!!!<br>                #Write-host 'Размер SQL базы в GB' = $dbsize.'Размер в GB'<br>                if ($count) {<br>                    Add-Content -Path $outputPath -Value "$server,$dbname,$($dbsize.'Размер в MB')"<br>                    Add-Content -Path $outputPath -Value "$(Get-Date -Format 'dd-MM-yyyy HH:mm'),$server,$dbname,$($dbsize.'Размер в MB')"<br><br>                } else {<br>                    Add-Content -Path $outputPath -Value "$server,$($dbsize.'Размер в MB')"<br>                }<br>            } else {<br>                Write-Warning "Database ${dbname} not found on server ${server}"<br>                Add-Content -Path $outputPath -Value "Database ${dbname} not found on server ${server}"<br>            }<br>        } catch {<br>            Write-Error "Error connecting to database ${dbname} on server ${server}: $_" -ErrorAction Continue<br>            Add-Content -Path $outputPath -Value "Error connecting to database ${dbname} on server ${server}: $_"<br>        }<br>    }<br>}<br><br>#Write-Host "Job Done!" -ForegroundColor Green -BackgroundColor Black<br>Get-Content "example.txt" | ForEach-Object {<br>    $_.ToCharArray() | ForEach-Object {<br>        Write-Host -NoNewline $_  -ForegroundColor Green -BackgroundColor Black<br>        Start-Sleep -Milliseconds 50<br>    }<br>}</p>
+</blockquote>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Под знаменем небес</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/pod-znamenem-nebes/"/>
+        <id>https://cyberflat.ru/pod-znamenem-nebes/</id>
+        <media:content url="https://cyberflat.ru/media/posts/3/le0afd642f1cffb78b84o-2.png" medium="image" />
+            <category term="serials"/>
+            <category term="hulu"/>
+
+        <updated>2023-04-17T23:54:10+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cyberflat.ru/media/posts/3/le0afd642f1cffb78b84o-2.png" alt="" />
+                    Дата выхода: 28.04.22 США. FX. Hulu. Сериал «Под знаменем небес» снят по одноименному бестселлеру американского писателя и журналиста Джона Кракауэра. В свою очередь, роман описывает реальные события, произошедшие в штате Юта в 1984 году. Набожный детектив-мормон Джеб Пайр расследует жестокое преступление: два брата убили жену&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cyberflat.ru/media/posts/3/le0afd642f1cffb78b84o-2.png" class="type:primaryImage" alt="" /></p>
+                <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://cyberflat.ru/media/posts/3/gallery/7783776a8f7d43135b811b2aec9f07ab.jpg" data-size="1200x800"><img loading="lazy" src="https://cyberflat.ru/media/posts/3/gallery/7783776a8f7d43135b811b2aec9f07ab-thumbnail.jpg" alt="" width="768" height="512"></a></figure>
+<figure class="gallery__item"><a href="https://cyberflat.ru/media/posts/3/gallery/w1500_50518941.jpg" data-size="1500x1000"><img loading="lazy" src="https://cyberflat.ru/media/posts/3/gallery/w1500_50518941-thumbnail.jpg" alt="" width="768" height="512"></a></figure>
+<figure class="gallery__item"><a href="https://cyberflat.ru/media/posts/3/gallery/w1500_50489227.jpg" data-size="1500x1000"><img loading="lazy" src="https://cyberflat.ru/media/posts/3/gallery/w1500_50489227-thumbnail.jpg" alt="" width="768" height="512"></a></figure>
+<figure class="gallery__item"><a href="https://cyberflat.ru/media/posts/3/gallery/IMG_0335-2048x1366.jpg" data-size="2048x1366"><img loading="lazy" src="https://cyberflat.ru/media/posts/3/gallery/IMG_0335-2048x1366-thumbnail.jpg" alt="" width="768" height="512"></a></figure>
+</div></div>
+<p>Дата выхода: 28.04.22 США. FX. Hulu.</p>
+<p>Сериал «Под знаменем небес» снят по одноименному бестселлеру американского писателя и журналиста Джона Кракауэра. В свою очередь, роман описывает реальные события, произошедшие в штате Юта в 1984 году.</p>
+<p>Набожный детектив-мормон Джеб Пайр расследует жестокое преступление: два брата убили жену и маленькую дочку своего третьего младшего брата. Обвиняемые утверждают, что выполняли приказ Бога. Выясняется, что братья состоят в религиозной группировке «Школа пророков» и следуют догматам Движения Святых последних дней, которые среди прочего включают в себя полигамию и убеждение в том, что истинные верующие могут напрямую общаться с богом. Чем глубже детектив Пайр погружается в расследование, тем большему сомнению подвергается его собственная вера.</p>
+<p>Сериал достаточно мощно начинается, хотя немного затянуто, но тем не менее по напряженности не уступит "Настоящим детективам". Эндрю Гарфилд в роли детектива Пайра.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Еще немного котов из AI</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/eshche-nemnogo-kotov-iz-ai/"/>
+        <id>https://cyberflat.ru/eshche-nemnogo-kotov-iz-ai/</id>
+        <media:content url="https://cyberflat.ru/media/posts/2/photo_2023-04-12_20-43-30.jpg" medium="image" />
+            <category term="cyberpunk"/>
+            <category term="cats"/>
+
+        <updated>2023-04-17T23:14:38+03:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cyberflat.ru/media/posts/2/photo_2023-04-12_20-43-30.jpg" class="type:primaryImage" alt="" /></p>
+                <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://cyberflat.ru/media/posts/2/gallery/kandinsky-download-1681320497749.png" data-size="767x767"><img loading="lazy" src="https://cyberflat.ru/media/posts/2/gallery/kandinsky-download-1681320497749-thumbnail.png" alt="" width="767" height="767"></a></figure>
+<figure class="gallery__item"><a href="https://cyberflat.ru/media/posts/2/gallery/kandinsky-download-1681761366688.png" data-size="773x773"><img loading="lazy" src="https://cyberflat.ru/media/posts/2/gallery/kandinsky-download-1681761366688-thumbnail.png" alt="" width="768" height="768"></a></figure>
+<figure class="gallery__item"><a href="https://cyberflat.ru/media/posts/2/gallery/kandinsky-download-1681320431484.png" data-size="767x767"><img loading="lazy" src="https://cyberflat.ru/media/posts/2/gallery/kandinsky-download-1681320431484-thumbnail.png" alt="" width="767" height="767"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>первая страница на Publii</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/testovaya-pervaya-stranica-na-publii/"/>
+        <id>https://cyberflat.ru/testovaya-pervaya-stranica-na-publii/</id>
+        <media:content url="https://cyberflat.ru/media/posts/1/kandinsky-download-1681320876627.png" medium="image" />
+            <category term="cyberpunk"/>
+            <category term="cats"/>
+
+        <updated>2023-04-18T06:59:43+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cyberflat.ru/media/posts/1/kandinsky-download-1681320876627.png" alt="" />
+                    Положим сюда пару строк текста и пару картинок. Например, котов в стиле киберпанк. Добавим еще немного текста. и какую-нибудь ссылку: https://cyberflat.ru
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cyberflat.ru/media/posts/1/kandinsky-download-1681320876627.png" class="type:primaryImage" alt="" /></p>
+                <p>   Положим сюда пару строк текста и пару картинок.</p>
+<p>Например, котов в стиле киберпанк.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://cyberflat.ru/media/posts/1/gallery/kandinsky-download-1681321186790-2.png" data-size="767x767"><img loading="lazy" src="https://cyberflat.ru/media/posts/1/gallery/kandinsky-download-1681321186790-2-thumbnail.png" alt="" width="720" height="720"></a></figure>
+<figure class="gallery__item"><a href="https://cyberflat.ru/media/posts/1/gallery/kandinsky-download-1681320953380.png" data-size="767x767"><img loading="lazy" src="https://cyberflat.ru/media/posts/1/gallery/kandinsky-download-1681320953380-thumbnail.png" alt="" width="720" height="720"></a></figure>
+<figure class="gallery__item"><a href="https://cyberflat.ru/media/posts/1/gallery/kandinsky-download-1681321053097.png" data-size="767x767"><img loading="lazy" src="https://cyberflat.ru/media/posts/1/gallery/kandinsky-download-1681321053097-thumbnail.png" alt="" width="720" height="720"></a></figure>
+</div></div>
+<p>Добавим еще немного текста.</p>
+<p>и какую-нибудь ссылку: <a href="#INTERNAL_LINK#/post/NaN">https://cyberflat.ru</a></p>
+            ]]>
+        </content>
+    </entry>
+</feed>
