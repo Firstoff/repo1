@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://cyberflat.ru/rezervaciya-dhcp/",
+            "url": "https://cyberflat.ru/rezervaciya-dhcp/",
+            "title": "Резервация DHCP",
+            "summary": "Код PowerShell для обработки ошибок при проверке наличия резервации на адрес DHCP и запрашивать резервацию, если ее нет: # Получаем текущие настройки DHCP $dhcpServer = \"DHCP-Server\" $scopeID = \"192.168.1.0\" $address = \"192.168.1.10\" $ReservationName = \"TestRes\" $ReservationComment = \"Test comment\" # Проверяем наличие резервации на адресе&hellip;",
+            "content_html": "\n  <p>\n    Код PowerShell для обработки ошибок при проверке наличия резервации на адрес DHCP и запрашивать резервацию, если ее нет:\n  </p>\n<pre class=\"line-numbers  language-visual-basic\"><code># Получаем текущие настройки DHCP\n$dhcpServer = \"DHCP-Server\"\n$scopeID = \"192.168.1.0\"\n$address = \"192.168.1.10\"\n$ReservationName = \"TestRes\"\n$ReservationComment = \"Test comment\"\n\n# Проверяем наличие резервации на адресе\n$Reservation = Get-DhcpServerv4Reservation -ComputerName $dhcpServer -ScopeId $scopeID -IPAddress $address -ErrorAction SilentlyContinue\n\nif($Reservation -eq $null){\n   # Если резервации на адресе нет, то запрашиваем у пользователя резервировать ли его\n   $result = Read-Host \"Резервировать ли адрес $address? (Да/Нет)\"\n   if($result.ToLower() -eq \"да\"){\n       # Если пользователь согласился на резервацию, тогда создаем новую резервацию\n       Add-DhcpServerv4Reservation -ComputerName $dhcpServer -ScopeId $scopeID -IPAddress $address -ClientIdentifier '00-11-22-33-44-55' -Name $ReservationName -Comment $ReservationComment\n       Write-Host \"Резервация на адрес $address успешно создана\"\n   }else{\n       Write-Host \"Резервация на адрес $address отменена пользователем\"\n   }\n}else{\n   # Если резервация на адресе уже есть, тогда выводим сообщение об этом\n   Write-Host \"Резервация на адрес $address уже существует\"\n}</code></pre>\n\n  <p>\n    Этот код проверяет наличие резервации на адресе DHCP, запрашивает подтверждение на резервацию, если ее нет, и создает новую резервацию в случае подтверждения. Если резервация уже существует, то скрипт просто выводит сообщение об этом. Учитывайте, что в этом коде некоторые переменные могут отличаться от Ваших текущих настроек DHCP и функций резервации.\n  </p>",
+            "image": "https://cyberflat.ru/media/posts/10/kandinsky-download-1682868496215.png",
+            "author": {
+                "name": "Korchagin"
+            },
+            "tags": [
+                   "powershell",
+                   "dhcp"
+            ],
+            "date_published": "2023-04-30T18:28:34+03:00",
+            "date_modified": "2023-04-30T18:28:34+03:00"
+        },
+        {
             "id": "https://cyberflat.ru/mocartov-pobezhdaet-salerina/",
             "url": "https://cyberflat.ru/mocartov-pobezhdaet-salerina/",
             "title": "Моцартов побеждает Сальерина",
