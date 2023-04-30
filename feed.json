@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://cyberflat.ru/kotiki-ot-kandinskogo/",
+            "url": "https://cyberflat.ru/kotiki-ot-kandinskogo/",
+            "title": "Котики от Кандинского",
+            "content_html": "\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/11/gallery/kandinsky-download-1682276729030.png\" data-size=\"767x767\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/11/gallery/kandinsky-download-1682276729030-thumbnail.png\" height=\"767\" width=\"767\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/11/gallery/kandinsky-download-1682276552081.png\" data-size=\"767x767\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/11/gallery/kandinsky-download-1682276552081-thumbnail.png\" height=\"767\" width=\"767\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/11/gallery/kandinsky-download-1682276514960.png\" data-size=\"767x767\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/11/gallery/kandinsky-download-1682276514960-thumbnail.png\" height=\"767\" width=\"767\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/11/gallery/kandinsky-download-1682276469821.png\" data-size=\"767x767\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/11/gallery/kandinsky-download-1682276469821-thumbnail.png\" height=\"767\" width=\"767\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/11/gallery/kandinsky-download-1682264962722.png\" data-size=\"765x765\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/11/gallery/kandinsky-download-1682264962722-thumbnail.png\" height=\"765\" width=\"765\" alt=\"\" >\n      </a>\n      \n    </figure>\n    </div>\n  </div>",
+            "image": "https://cyberflat.ru/media/posts/11/kandinsky-download-1681320953380.png",
+            "author": {
+                "name": "Korchagin"
+            },
+            "tags": [
+                   "cyberpunk",
+                   "chatgpt",
+                   "cats"
+            ],
+            "date_published": "2023-04-30T18:52:22+03:00",
+            "date_modified": "2023-04-30T18:52:22+03:00"
+        },
+        {
             "id": "https://cyberflat.ru/rezervaciya-dhcp/",
             "url": "https://cyberflat.ru/rezervaciya-dhcp/",
             "title": "Резервация DHCP",
@@ -95,6 +112,7 @@
             "title": "ищем базу данных из своего списка и её размер в списке серверов",
             "summary": "```powershell Remove-Variable * -ErrorAction SilentlyContinue # # Этот код ищет базы данных из своего списка и их размер в списке серверов # $x = 1 #read-host \"\" $serverList = Get-Content \"ServerList.txt\" $databaseList = Get-Content \"DatabaseList.txt\" $query = \"select count(name) from sysdatabases where name = '{0}'\"&hellip;",
             "content_html": "<p><code>```powershell</code></p>\n<p><code>Remove-Variable * -ErrorAction SilentlyContinue</code><br><br><code>#</code><br><code># Этот код ищет базы данных из своего списка и их размер в списке серверов</code><br><code>#</code><br><code>$x = 1</code><br><code>#read-host \"\"</code><br><br><code>$serverList = Get-Content \"ServerList.txt\"</code><br><code>$databaseList = Get-Content \"DatabaseList.txt\"</code><br><code>$query = \"select count(name) from sysdatabases where name = '{0}'\"</code><br><code>$queryexistbase = \"SELECT COUNT(*) as [Count] FROM sys.objects\"</code><br><code>#$querydbsizeGB = \"SELECT SUM(CAST(size / 128.0 /1024 AS DECIMAL(17,2))) AS [Размер в GB] FROM sys.database_files\"</code><br><code>$querydbsizeMB = \"SELECT SUM(CAST(size / 128.0 AS DECIMAL(17,2))) AS [Размер в MB] FROM sys.database_files\"</code><br><code>$outputPath = \"Output.log\"</code><br><code>$backupDirectory = \"C:\\backup\"</code><br><br><code>foreach ($server in $serverList) {</code><br><code>    foreach ($dbname in $databaseList) {</code><br><code>        $queryDb = $query -f $dbname</code><br><code>        $SQLInstances = $server</code><br><code>        try {</code><br><code>            if ($(Invoke-SQLCmd -ServerInstance $SQLInstances -Database master -Query $queryDb -QueryTimeout 3600 -Verbose -ErrorAction Stop).Column1 -gt 0) {</code><br><code>                $results = Invoke-Sqlcmd -ServerInstance $server -Database $dbname -Query $queryexistbase -ErrorAction SilentlyContinue</code><br><code>                $dbSize = Invoke-Sqlcmd -ServerInstance $server -Database $dbname -Query $querydbsizeMB -ErrorAction SilentlyContinue</code><br><code>                if ($results) {</code><br><code>                    $count = $results.Count</code><br><code>                } else {</code><br><code>                    $count = 0</code><br><code>                }</code><br><br><code>                # Создать резервную копию базы данных</code><br><code>                $backupFile = \"{0}\\{1}_do_{2}.bak\" -f $backupDirectory, $dbname, (Get-Date).AddDays($x).ToString(\"ddMMyyyy\")</code><br><code>                Backup-SqlDatabase -ServerInstance $server -Database $dbname -BackupFile $backupFile</code><br><br><code>                Write-Output \"$server,$dbname,$($dbsize.'Размер в MB')\"</code><br><code>                #Write-host 'Размер SQL базы в MB' = $dbsize.'Размер в MB' # обрати внимание, здесь значение из массива, а не переменная и текст !!!!</code><br><code>                #Write-host 'Размер SQL базы в GB' = $dbsize.'Размер в GB'</code><br><code>                if ($count) {</code><br><code>                    Add-Content -Path $outputPath -Value \"$server,$dbname,$($dbsize.'Размер в MB')\"</code><br><code>                    Add-Content -Path $outputPath -Value \"$(Get-Date -Format 'dd-MM-yyyy HH:mm'),$server,$dbname,$($dbsize.'Размер в MB')\"</code><br><br><code>                } else {</code><br><code>                    Add-Content -Path $outputPath -Value \"$server,$($dbsize.'Размер в MB')\"</code><br><code>                }</code><br><code>            } else {</code><br><code>                Write-Warning \"Database ${dbname} not found on server ${server}\"</code><br><code>                Add-Content -Path $outputPath -Value \"Database ${dbname} not found on server ${server}\"</code><br><code>            }</code><br><code>        } catch {</code><br><code>            Write-Error \"Error connecting to database ${dbname} on server ${server}: $_\" -ErrorAction Continue</code><br><code>            Add-Content -Path $outputPath -Value \"Error connecting to database ${dbname} on server ${server}: $_\"</code><br><code>        }</code><br><code>    }</code><br><code>}</code><br><br><code>#Write-Host \"Job Done!\" -ForegroundColor Green -BackgroundColor Black</code><br><code>Get-Content \"example.txt\" | ForEach-Object {</code><br><code>    $_.ToCharArray() | ForEach-Object {</code><br><code>        Write-Host -NoNewline $_  -ForegroundColor Green -BackgroundColor Black</code><br><code>        Start-Sleep -Milliseconds 50</code><br><code>    }</code><br><code>}</code></p>\n<p> </p>",
+            "image": "https://cyberflat.ru/media/posts/4/kandinsky-download-1682869843008.png",
             "author": {
                 "name": "Korchagin"
             },
@@ -102,7 +120,7 @@
                    "powershell"
             ],
             "date_published": "2023-04-18T00:09:26+03:00",
-            "date_modified": "2023-04-30T17:19:01+03:00"
+            "date_modified": "2023-04-30T18:50:48+03:00"
         },
         {
             "id": "https://cyberflat.ru/pod-znamenem-nebes/",
