@@ -3,7 +3,7 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2023-05-20T11:15:57+03:00</updated>
+    <updated>2023-05-22T13:27:38+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://cyberflat.ru/media/posts/13/photo_2023-05-20_11-04-00.jpg" medium="image" />
             <category term="agrofitness"/>
 
-        <updated>2023-05-20T11:14:40+03:00</updated>
+        <updated>2023-05-22T13:27:38+03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -40,6 +40,11 @@
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45.jpg" data-size="1280x720">
         <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45-thumbnail.jpg" height="432" width="768" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure>
