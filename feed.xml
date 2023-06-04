@@ -3,12 +3,50 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2023-06-04T21:21:21+03:00</updated>
+    <updated>2023-06-04T23:25:09+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
     <id>https://cyberflat.ru</id>
 
+    <entry>
+        <title>Чем выше тем лучше видно.</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/chem-vyshe-tem-luchshe-vidno/"/>
+        <id>https://cyberflat.ru/chem-vyshe-tem-luchshe-vidno/</id>
+        <media:content url="https://cyberflat.ru/media/posts/25/2022-08-17-14-32-39.JPG" medium="image" />
+            <category term="cats"/>
+
+        <updated>2023-06-04T23:25:09+03:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cyberflat.ru/media/posts/25/2022-08-17-14-32-39.JPG" class="type:primaryImage" alt="" /></p>
+                
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-07-40-04_1657859888355.JPG" height="1440" width="1440" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-2xl.JPG 1600w">
+      
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-07-40-04_1657859889941.JPG" height="1440" width="1440" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-2xl.JPG 1600w">
+      
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-00-43-03.JPG" height="3024" width="4032" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-2xl.JPG 1600w">
+      
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-19-10-16-17.JPG" height="3170" width="2782" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-2xl.JPG 1600w">
+      
+    </figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Петуния ампельная</title>
         <author>
@@ -490,69 +528,6 @@ if($Reservation -eq $null){
 <br>
 <br>Несмотря на то, что Моцартов и Сальерин поначалу сотрудничали в музыкальной индустрии, их творческие направления были разные. Моцартов был известен своим ярким стилем, полным эмоций и экспериментов, тогда как Сальерин был более консервативен в своих композициях. Однако оба композитора оставили свой след в истории музыки и до сих пор остаются значимыми фигурами классической музыки.
   </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Проверка блокировок на сервере</title>
-        <author>
-            <name>Korchagin</name>
-        </author>
-        <link href="https://cyberflat.ru/proverka-blokirovok-na-servere/"/>
-        <id>https://cyberflat.ru/proverka-blokirovok-na-servere/</id>
-        <media:content url="https://cyberflat.ru/media/posts/8/kandinsky-download-1682866221320.png" medium="image" />
-            <category term="sql"/>
-
-        <updated>2023-04-30T18:09:38+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://cyberflat.ru/media/posts/8/kandinsky-download-1682866221320.png" alt="" />
-                    ```sql SET NOCOUNT ON GO SELECT SPID, BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH INTO #T FROM sys.sysprocesses R CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T GO WITH BLOCKERS (SPID, BLOCKED, LEVEL, BATCH) AS ( SELECT SPID, BLOCKED, CAST (REPLICATE ('0',&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://cyberflat.ru/media/posts/8/kandinsky-download-1682866221320.png" class="type:primaryImage" alt="" /></p>
-                <pre class="line-numbers  language-html"><code>```sql
-SET NOCOUNT ON
-GO
-SELECT SPID, BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH
-INTO #T
-FROM sys.sysprocesses R CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T
-GO
-WITH
-BLOCKERS (SPID, BLOCKED, LEVEL, BATCH)
-AS
-(
-SELECT SPID,
-BLOCKED,
-CAST (REPLICATE ('0', 4-LEN (CAST (SPID AS VARCHAR))) + CAST (SPID AS VARCHAR) AS VARCHAR (1000)) AS LEVEL,
-BATCH
-FROM #T R
-WHERE (BLOCKED = 0 OR BLOCKED = SPID)
-AND EXISTS (SELECT *
-FROM #T R2
-WHERE R2.BLOCKED = R.SPID AND R2.BLOCKED &lt;&gt; R2.SPID)
-UNION ALL
-SELECT R.SPID,
-R.BLOCKED,
-CAST (BLOCKERS.LEVEL + RIGHT (CAST ((1000 + R.SPID) AS VARCHAR (100)), 4) AS VARCHAR (1000)) AS LEVEL,
-R.BATCH
-FROM #T AS R
-INNER JOIN BLOCKERS ON R.BLOCKED = BLOCKERS.SPID
-WHERE R.BLOCKED &gt; 0 AND R.BLOCKED &lt;&gt; R.SPID
-)
-SELECT N' ' + REPLICATE (N'| ', LEN (LEVEL)/4 - 1) +
-CASE WHEN (LEN(LEVEL)/4 - 1) = 0
-THEN 'HEAD - '
-ELSE '|------ ' END
-+ CAST (SPID AS NVARCHAR (10)) + N' ' + BATCH AS BLOCKING_TREE
-FROM BLOCKERS
-ORDER BY LEVEL ASC
-GO
-DROP TABLE #T
-GO
-```</code></pre>
             ]]>
         </content>
     </entry>
