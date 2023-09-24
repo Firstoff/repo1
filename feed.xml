@@ -3,7 +3,7 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2023-09-24T19:21:32+03:00</updated>
+    <updated>2023-09-24T20:14:45+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
@@ -51,7 +51,7 @@
         <id>https://cyberflat.ru/turkie-alanya-sept2023-part-ii/</id>
         <media:content url="https://cyberflat.ru/media/posts/29/photo_2023-09-24_18-56-37.jpg" medium="image" />
 
-        <updated>2023-09-24T19:17:48+03:00</updated>
+        <updated>2023-09-24T20:14:45+03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -112,6 +112,11 @@
     </figure>
     </div>
   </div>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/29/photo_2023-09-24_19-22-16.jpg" height="575" width="1280" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-xs.jpg 300w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-sm.jpg 480w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-md.jpg 768w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-lg.jpg 1024w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-xl.jpg 1360w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-2xl.jpg 1600w">
+      
+    </figure>
             ]]>
         </content>
     </entry>
