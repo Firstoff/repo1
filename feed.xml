@@ -3,12 +3,35 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2023-09-24T20:14:45+03:00</updated>
+    <updated>2023-11-17T03:27:53+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
     <id>https://cyberflat.ru</id>
 
+    <entry>
+        <title>Paw</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/paw/"/>
+        <id>https://cyberflat.ru/paw/</id>
+        <media:content url="https://cyberflat.ru/media/posts/31/2023-10-18-14-06-54-2.JPG" medium="image" />
+            <category term="maincoon"/>
+
+        <updated>2023-11-17T03:27:53+03:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cyberflat.ru/media/posts/31/2023-10-18-14-06-54-2.JPG" class="type:primaryImage" alt="" /></p>
+                
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/31/2023-10-18-14-06-54.JPG" height="1973" width="1723" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/31/responsive/2023-10-18-14-06-54-xs.webp 300w ,https://cyberflat.ru/media/posts/31/responsive/2023-10-18-14-06-54-sm.webp 480w ,https://cyberflat.ru/media/posts/31/responsive/2023-10-18-14-06-54-md.webp 768w ,https://cyberflat.ru/media/posts/31/responsive/2023-10-18-14-06-54-lg.webp 1024w ,https://cyberflat.ru/media/posts/31/responsive/2023-10-18-14-06-54-xl.webp 1360w ,https://cyberflat.ru/media/posts/31/responsive/2023-10-18-14-06-54-2xl.webp 1600w">
+      
+    </figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Heart of the Ocean</title>
         <author>
@@ -28,12 +51,12 @@
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/30/gallery/photo_2023-09-24_18-59-07.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/30/gallery/photo_2023-09-24_18-59-07-thumbnail.jpg" height="1280" width="577" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/30/gallery/photo_2023-09-24_18-59-07-thumbnail.webp" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/30/gallery/photo_2023-09-24_18-59-08.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/30/gallery/photo_2023-09-24_18-59-08-thumbnail.jpg" height="1280" width="720" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/30/gallery/photo_2023-09-24_18-59-08-thumbnail.webp" height="1280" width="720" alt="" >
       </a>
       
     </figure>
@@ -61,52 +84,52 @@
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-05.jpg" data-size="572x860">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-05-thumbnail.jpg" height="860" width="572" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-05-thumbnail.webp" height="860" width="572" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-30.jpg" data-size="577x871">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-30-thumbnail.jpg" height="871" width="577" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-30-thumbnail.webp" height="871" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-59-10.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-59-10-thumbnail.jpg" height="1280" width="577" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-59-10-thumbnail.webp" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-40.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-40-thumbnail.jpg" height="1280" width="577" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-40-thumbnail.webp" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-33.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-33-thumbnail.jpg" height="1280" width="577" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-33-thumbnail.webp" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-23.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-23-thumbnail.jpg" height="1280" width="577" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-23-thumbnail.webp" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-21.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-21-thumbnail.jpg" height="1280" width="577" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-21-thumbnail.webp" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-04.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-04-thumbnail.jpg" height="1280" width="577" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-04-thumbnail.webp" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-56-42.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-56-42-thumbnail.jpg" height="1280" width="577" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-56-42-thumbnail.webp" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-56-35.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-56-35-thumbnail.jpg" height="1280" width="577" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-56-35-thumbnail.webp" height="1280" width="577" alt="" >
       </a>
       
     </figure>
@@ -114,7 +137,7 @@
   </div>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cyberflat.ru/media/posts/29/photo_2023-09-24_19-22-16.jpg" height="575" width="1280" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-xs.jpg 300w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-sm.jpg 480w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-md.jpg 768w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-lg.jpg 1024w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-xl.jpg 1360w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-2xl.jpg 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/29/photo_2023-09-24_19-22-16.jpg" height="575" width="1280" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-xs.webp 300w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-sm.webp 480w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-md.webp 768w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-lg.webp 1024w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-xl.webp 1360w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-2xl.webp 1600w">
       
     </figure>
             ]]>
@@ -139,87 +162,87 @@
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-41.jpg" data-size="1141x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-41-thumbnail.jpg" height="388" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-41-thumbnail.webp" height="388" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-36-2.jpg" data-size="1120x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-36-2-thumbnail.jpg" height="396" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-36-2-thumbnail.webp" height="396" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-43.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-43-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-43-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-35.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-35-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-35-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-34.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-34-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-34-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-28.jpg" data-size="1237x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-28-thumbnail.jpg" height="358" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-28-thumbnail.webp" height="358" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-27.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-27-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-27-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-58-55.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-58-55-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-58-55-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-31.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-31-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-31-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-37.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-37-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-37-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-53.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-53-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-53-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-32.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-32-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-32-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-24.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-24-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-24-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-22.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-22-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-22-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-26.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-26-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-26-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-20.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-20-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-20-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-16.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-16-thumbnail.jpg" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-16-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure>
@@ -245,22 +268,22 @@
                     <p><img src="https://cyberflat.ru/media/posts/25/2022-08-17-14-32-39.JPG" class="type:primaryImage" alt="" /></p>
                 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-07-40-04_1657859888355.JPG" height="1440" width="1440" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-2xl.JPG 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-07-40-04_1657859888355.JPG" height="1440" width="1440" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-xs.webp 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-sm.webp 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-md.webp 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-lg.webp 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-xl.webp 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-2xl.webp 1600w">
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-07-40-04_1657859889941.JPG" height="1440" width="1440" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-2xl.JPG 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-07-40-04_1657859889941.JPG" height="1440" width="1440" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-xs.webp 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-sm.webp 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-md.webp 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-lg.webp 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-xl.webp 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-2xl.webp 1600w">
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-00-43-03.JPG" height="3024" width="4032" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-2xl.JPG 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-00-43-03.JPG" height="3024" width="4032" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-xs.webp 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-sm.webp 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-md.webp 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-lg.webp 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-xl.webp 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-2xl.webp 1600w">
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-19-10-16-17.JPG" height="3170" width="2782" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-2xl.JPG 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-19-10-16-17.JPG" height="3170" width="2782" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-xs.webp 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-sm.webp 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-md.webp 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-lg.webp 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-xl.webp 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-2xl.webp 1600w">
       
     </figure>
             ]]>
@@ -288,47 +311,47 @@
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-13-32-18.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-13-32-18-thumbnail.JPG" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-13-32-18-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18.JPG" data-size="1440x1440">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18-thumbnail.JPG" height="768" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18-thumbnail.webp" height="768" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448932425.JPG" data-size="1440x1440">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448932425-thumbnail.JPG" height="768" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448932425-thumbnail.webp" height="768" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448934031.JPG" data-size="1440x1440">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448934031-thumbnail.JPG" height="768" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448934031-thumbnail.webp" height="768" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448936214.JPG" data-size="1440x1440">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448936214-thumbnail.JPG" height="768" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448936214-thumbnail.webp" height="768" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448938208.JPG" data-size="1440x1440">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448938208-thumbnail.JPG" height="768" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448938208-thumbnail.webp" height="768" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-51-36.JPG" data-size="1920x1440">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-51-36-thumbnail.JPG" height="576" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-51-36-thumbnail.webp" height="576" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-30.JPG" data-size="4032x2268">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-30-thumbnail.JPG" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-30-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-43.JPG" data-size="4032x2268">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-43-thumbnail.JPG" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-43-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure>
@@ -357,32 +380,32 @@
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-46-24.JPG" data-size="4000x1800">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-46-24-thumbnail.JPG" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-46-24-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-44-05.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-44-05-thumbnail.JPG" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-44-05-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-03.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-03-thumbnail.JPG" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-03-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-39.JPG" data-size="4000x1800">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-39-thumbnail.JPG" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-39-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-51-40.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-51-40-thumbnail.JPG" height="346" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-51-40-thumbnail.webp" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-28-17-55-50.JPG" data-size="1440x754">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-28-17-55-50-thumbnail.JPG" height="402" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-28-17-55-50-thumbnail.webp" height="402" width="768" alt="" >
       </a>
       
     </figure>
@@ -411,82 +434,82 @@
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-49.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-49-thumbnail.jpg" height="1280" width="720" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-49-thumbnail.webp" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-46.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-46-thumbnail.jpg" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-46-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-44.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-44-thumbnail.jpg" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-44-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-42.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-42-thumbnail.jpg" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-42-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-40.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-40-thumbnail.jpg" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-40-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-38.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-38-thumbnail.jpg" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-38-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-36.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-36-thumbnail.jpg" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-36-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-34.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-34-thumbnail.jpg" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-34-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-32.jpg" data-size="1280x722">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-32-thumbnail.jpg" height="433" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-32-thumbnail.webp" height="433" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-30.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-30-thumbnail.jpg" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-30-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-28.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-28-thumbnail.jpg" height="1280" width="720" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-28-thumbnail.webp" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-26.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-26-thumbnail.jpg" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-26-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-24.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-24-thumbnail.jpg" height="1280" width="720" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-24-thumbnail.webp" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-22.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-22-thumbnail.jpg" height="1280" width="720" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-22-thumbnail.webp" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-20.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-20-thumbnail.jpg" height="1280" width="720" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-20-thumbnail.webp" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-18.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-18-thumbnail.jpg" height="1280" width="720" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-18-thumbnail.webp" height="1280" width="720" alt="" >
       </a>
       
     </figure>
@@ -515,22 +538,22 @@
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-50.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-50-thumbnail.jpg" height="1280" width="720" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-50-thumbnail.webp" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-48.jpg" data-size="1280x722">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-48-thumbnail.jpg" height="433" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-48-thumbnail.webp" height="433" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45-thumbnail.jpg" height="432" width="768" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45-thumbnail.webp" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50-thumbnail.jpg" height="1280" width="720" alt="" >
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50-thumbnail.webp" height="1280" width="720" alt="" >
       </a>
       
     </figure>
@@ -565,48 +588,9 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.jpg" height="1280" width="720" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-xs.jpg 300w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-sm.jpg 480w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-md.jpg 768w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-lg.jpg 1024w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-xl.jpg 1360w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-2xl.jpg 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.jpg" height="1280" width="720" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-xs.webp 300w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-sm.webp 480w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-md.webp 768w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-lg.webp 1024w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-xl.webp 1360w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-2xl.webp 1600w">
       
     </figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>19 мая 2023</title>
-        <author>
-            <name>Korchagin</name>
-        </author>
-        <link href="https://cyberflat.ru/19-maya-2023/"/>
-        <id>https://cyberflat.ru/19-maya-2023/</id>
-        <media:content url="https://cyberflat.ru/media/posts/14/photo_2023-05-20_11-04-07.jpg" medium="image" />
-            <category term="cats"/>
-
-        <updated>2023-05-20T11:15:57+03:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://cyberflat.ru/media/posts/14/photo_2023-05-20_11-04-07.jpg" class="type:primaryImage" alt="" /></p>
-                
-  <div  class="gallery-wrapper">
-    <div class="gallery" data-columns="3">
-      <figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-27.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-27-thumbnail.jpg" height="432" width="768" alt="" >
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-25.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-25-thumbnail.jpg" height="432" width="768" alt="" >
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-07.jpg" data-size="1280x647">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-07-thumbnail.jpg" height="388" width="768" alt="" >
-      </a>
-      
-    </figure>
-    </div>
-  </div>
             ]]>
         </content>
     </entry>
