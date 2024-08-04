@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Cyberflat.ru</title>
-    <link href="https://github.com/Firstoff/repo1/feed.xml" rel="self" />
-    <link href="https://github.com/Firstoff/repo1" />
+    <link href="https://cyberflat.ru/feed.xml" rel="self" />
+    <link href="https://cyberflat.ru" />
     <updated>2023-09-24T20:14:45+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
-    <id>https://github.com/Firstoff/repo1</id>
+    <id>https://cyberflat.ru</id>
 
     <entry>
         <title>The Heart of the Ocean</title>
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://github.com/Firstoff/repo1/the-heart-of-the-ocean/"/>
-        <id>https://github.com/Firstoff/repo1/the-heart-of-the-ocean/</id>
-        <media:content url="https://github.com/Firstoff/repo1/media/posts/30/photo_2023-09-24_18-59-08.jpg" medium="image" />
+        <link href="https://cyberflat.ru/the-heart-of-the-ocean/"/>
+        <id>https://cyberflat.ru/the-heart-of-the-ocean/</id>
+        <media:content url="https://cyberflat.ru/media/posts/30/photo_2023-09-24_18-59-08.jpg" medium="image" />
 
         <updated>2023-09-24T19:21:32+03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/Firstoff/repo1/media/posts/30/photo_2023-09-24_18-59-08.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cyberflat.ru/media/posts/30/photo_2023-09-24_18-59-08.jpg" class="type:primaryImage" alt="" /></p>
                 
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/30/gallery/photo_2023-09-24_18-59-07.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/30/gallery/photo_2023-09-24_18-59-07-thumbnail.jpg" height="1280" width="577" alt="" >
+      <a href="https://cyberflat.ru/media/posts/30/gallery/photo_2023-09-24_18-59-07.jpg" data-size="577x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/30/gallery/photo_2023-09-24_18-59-07-thumbnail.jpg" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/30/gallery/photo_2023-09-24_18-59-08.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/30/gallery/photo_2023-09-24_18-59-08-thumbnail.jpg" height="1280" width="720" alt="" >
+      <a href="https://cyberflat.ru/media/posts/30/gallery/photo_2023-09-24_18-59-08.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/30/gallery/photo_2023-09-24_18-59-08-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure>
@@ -47,66 +47,66 @@
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://github.com/Firstoff/repo1/turkie-alanya-sept2023-part-ii/"/>
-        <id>https://github.com/Firstoff/repo1/turkie-alanya-sept2023-part-ii/</id>
-        <media:content url="https://github.com/Firstoff/repo1/media/posts/29/photo_2023-09-24_18-56-37.jpg" medium="image" />
+        <link href="https://cyberflat.ru/turkie-alanya-sept2023-part-ii/"/>
+        <id>https://cyberflat.ru/turkie-alanya-sept2023-part-ii/</id>
+        <media:content url="https://cyberflat.ru/media/posts/29/photo_2023-09-24_18-56-37.jpg" medium="image" />
 
         <updated>2023-09-24T19:16:16+03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/Firstoff/repo1/media/posts/29/photo_2023-09-24_18-56-37.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cyberflat.ru/media/posts/29/photo_2023-09-24_18-56-37.jpg" class="type:primaryImage" alt="" /></p>
                 
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-05.jpg" data-size="572x860">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-05-thumbnail.jpg" height="860" width="572" alt="" >
+      <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-05.jpg" data-size="572x860">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-05-thumbnail.jpg" height="860" width="572" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-30.jpg" data-size="577x871">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-30-thumbnail.jpg" height="871" width="577" alt="" >
+      <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-30.jpg" data-size="577x871">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-30-thumbnail.jpg" height="871" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-59-10.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-59-10-thumbnail.jpg" height="1280" width="577" alt="" >
+      <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-59-10.jpg" data-size="577x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-59-10-thumbnail.jpg" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-40.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-40-thumbnail.jpg" height="1280" width="577" alt="" >
+      <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-40.jpg" data-size="577x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-40-thumbnail.jpg" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-33.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-33-thumbnail.jpg" height="1280" width="577" alt="" >
+      <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-33.jpg" data-size="577x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-33-thumbnail.jpg" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-23.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-23-thumbnail.jpg" height="1280" width="577" alt="" >
+      <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-23.jpg" data-size="577x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-23-thumbnail.jpg" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-21.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-21-thumbnail.jpg" height="1280" width="577" alt="" >
+      <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-21.jpg" data-size="577x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-21-thumbnail.jpg" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-04.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-57-04-thumbnail.jpg" height="1280" width="577" alt="" >
+      <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-04.jpg" data-size="577x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-57-04-thumbnail.jpg" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-56-42.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-56-42-thumbnail.jpg" height="1280" width="577" alt="" >
+      <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-56-42.jpg" data-size="577x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-56-42-thumbnail.jpg" height="1280" width="577" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-56-35.jpg" data-size="577x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/gallery/photo_2023-09-24_18-56-35-thumbnail.jpg" height="1280" width="577" alt="" >
+      <a href="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-56-35.jpg" data-size="577x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/29/gallery/photo_2023-09-24_18-56-35-thumbnail.jpg" height="1280" width="577" alt="" >
       </a>
       
     </figure>
@@ -114,7 +114,7 @@
   </div>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/29/photo_2023-09-24_19-22-16.jpg" height="575" width="1280" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://github.com/Firstoff/repo1/media/posts/29/responsive/photo_2023-09-24_19-22-16-xs.jpg 300w ,https://github.com/Firstoff/repo1/media/posts/29/responsive/photo_2023-09-24_19-22-16-sm.jpg 480w ,https://github.com/Firstoff/repo1/media/posts/29/responsive/photo_2023-09-24_19-22-16-md.jpg 768w ,https://github.com/Firstoff/repo1/media/posts/29/responsive/photo_2023-09-24_19-22-16-lg.jpg 1024w ,https://github.com/Firstoff/repo1/media/posts/29/responsive/photo_2023-09-24_19-22-16-xl.jpg 1360w ,https://github.com/Firstoff/repo1/media/posts/29/responsive/photo_2023-09-24_19-22-16-2xl.jpg 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/29/photo_2023-09-24_19-22-16.jpg" height="575" width="1280" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-xs.jpg 300w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-sm.jpg 480w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-md.jpg 768w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-lg.jpg 1024w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-xl.jpg 1360w ,https://cyberflat.ru/media/posts/29/responsive/photo_2023-09-24_19-22-16-2xl.jpg 1600w">
       
     </figure>
             ]]>
@@ -125,101 +125,101 @@
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://github.com/Firstoff/repo1/turkie-alanya-sept2023/"/>
-        <id>https://github.com/Firstoff/repo1/turkie-alanya-sept2023/</id>
-        <media:content url="https://github.com/Firstoff/repo1/media/posts/28/photo_2023-09-24_18-57-42.jpg" medium="image" />
+        <link href="https://cyberflat.ru/turkie-alanya-sept2023/"/>
+        <id>https://cyberflat.ru/turkie-alanya-sept2023/</id>
+        <media:content url="https://cyberflat.ru/media/posts/28/photo_2023-09-24_18-57-42.jpg" medium="image" />
 
         <updated>2023-09-24T19:10:37+03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/Firstoff/repo1/media/posts/28/photo_2023-09-24_18-57-42.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cyberflat.ru/media/posts/28/photo_2023-09-24_18-57-42.jpg" class="type:primaryImage" alt="" /></p>
                 
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-41.jpg" data-size="1141x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-41-thumbnail.jpg" height="388" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-41.jpg" data-size="1141x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-41-thumbnail.jpg" height="388" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-36-2.jpg" data-size="1120x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-36-2-thumbnail.jpg" height="396" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-36-2.jpg" data-size="1120x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-36-2-thumbnail.jpg" height="396" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-43.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-43-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-43.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-43-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-35.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-35-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-35.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-35-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-34.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-34-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-34.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-34-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-56-28.jpg" data-size="1237x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-56-28-thumbnail.jpg" height="358" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-28.jpg" data-size="1237x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-28-thumbnail.jpg" height="358" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-27.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-27-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-27.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-27-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-58-55.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-58-55-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-58-55.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-58-55-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-31.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-31-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-31.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-31-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-56-37.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-56-37-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-37.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-37-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-56-53.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-56-53-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-53.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-53-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-56-32.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-56-32-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-32.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-56-32-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-24.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-24-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-24.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-24-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-22.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-22-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-22.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-22-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-26.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-26-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-26.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-26-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-20.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-20-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-20.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-20-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-16.jpg" data-size="1280x577">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/28/gallery/photo_2023-09-24_18-57-16-thumbnail.jpg" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-16.jpg" data-size="1280x577">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/28/gallery/photo_2023-09-24_18-57-16-thumbnail.jpg" height="346" width="768" alt="" >
       </a>
       
     </figure>
@@ -233,34 +233,34 @@
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://github.com/Firstoff/repo1/chem-vyshe-tem-luchshe-vidno/"/>
-        <id>https://github.com/Firstoff/repo1/chem-vyshe-tem-luchshe-vidno/</id>
-        <media:content url="https://github.com/Firstoff/repo1/media/posts/25/2022-08-17-14-32-39.JPG" medium="image" />
+        <link href="https://cyberflat.ru/chem-vyshe-tem-luchshe-vidno/"/>
+        <id>https://cyberflat.ru/chem-vyshe-tem-luchshe-vidno/</id>
+        <media:content url="https://cyberflat.ru/media/posts/25/2022-08-17-14-32-39.JPG" medium="image" />
             <category term="cats"/>
 
         <updated>2023-06-04T23:25:09+03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/Firstoff/repo1/media/posts/25/2022-08-17-14-32-39.JPG" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cyberflat.ru/media/posts/25/2022-08-17-14-32-39.JPG" class="type:primaryImage" alt="" /></p>
                 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/25/2022-07-15-07-40-04_1657859888355.JPG" height="1440" width="1440" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-xs.JPG 300w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-sm.JPG 480w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-md.JPG 768w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-lg.JPG 1024w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-xl.JPG 1360w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-2xl.JPG 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-07-40-04_1657859888355.JPG" height="1440" width="1440" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859888355-2xl.JPG 1600w">
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/25/2022-07-15-07-40-04_1657859889941.JPG" height="1440" width="1440" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-xs.JPG 300w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-sm.JPG 480w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-md.JPG 768w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-lg.JPG 1024w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-xl.JPG 1360w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-2xl.JPG 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-07-40-04_1657859889941.JPG" height="1440" width="1440" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-07-40-04_1657859889941-2xl.JPG 1600w">
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/25/2022-07-15-00-43-03.JPG" height="3024" width="4032" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-00-43-03-xs.JPG 300w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-00-43-03-sm.JPG 480w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-00-43-03-md.JPG 768w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-00-43-03-lg.JPG 1024w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-00-43-03-xl.JPG 1360w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-15-00-43-03-2xl.JPG 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-15-00-43-03.JPG" height="3024" width="4032" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-15-00-43-03-2xl.JPG 1600w">
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/25/2022-07-19-10-16-17.JPG" height="3170" width="2782" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-19-10-16-17-xs.JPG 300w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-19-10-16-17-sm.JPG 480w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-19-10-16-17-md.JPG 768w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-19-10-16-17-lg.JPG 1024w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-19-10-16-17-xl.JPG 1360w ,https://github.com/Firstoff/repo1/media/posts/25/responsive/2022-07-19-10-16-17-2xl.JPG 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/25/2022-07-19-10-16-17.JPG" height="3170" width="2782" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-xs.JPG 300w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-sm.JPG 480w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-md.JPG 768w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-lg.JPG 1024w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-xl.JPG 1360w ,https://cyberflat.ru/media/posts/25/responsive/2022-07-19-10-16-17-2xl.JPG 1600w">
       
     </figure>
             ]]>
@@ -271,9 +271,9 @@
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://github.com/Firstoff/repo1/petuniya-ampelnaya/"/>
-        <id>https://github.com/Firstoff/repo1/petuniya-ampelnaya/</id>
-        <media:content url="https://github.com/Firstoff/repo1/media/posts/17/2022-06-05-16-58-18.JPG" medium="image" />
+        <link href="https://cyberflat.ru/petuniya-ampelnaya/"/>
+        <id>https://cyberflat.ru/petuniya-ampelnaya/</id>
+        <media:content url="https://cyberflat.ru/media/posts/17/2022-06-05-16-58-18.JPG" medium="image" />
             <category term="home"/>
             <category term="garden"/>
             <category term="agrofitness"/>
@@ -282,53 +282,53 @@
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/Firstoff/repo1/media/posts/17/2022-06-05-16-58-18.JPG" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cyberflat.ru/media/posts/17/2022-06-05-16-58-18.JPG" class="type:primaryImage" alt="" /></p>
                 
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-13-32-18.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-13-32-18-thumbnail.JPG" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-13-32-18.JPG" data-size="4032x1816">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-13-32-18-thumbnail.JPG" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-16-58-18.JPG" data-size="1440x1440">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-16-58-18-thumbnail.JPG" height="768" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18.JPG" data-size="1440x1440">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18-thumbnail.JPG" height="768" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-16-58-18_1654448932425.JPG" data-size="1440x1440">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-16-58-18_1654448932425-thumbnail.JPG" height="768" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448932425.JPG" data-size="1440x1440">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448932425-thumbnail.JPG" height="768" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-16-58-18_1654448934031.JPG" data-size="1440x1440">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-16-58-18_1654448934031-thumbnail.JPG" height="768" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448934031.JPG" data-size="1440x1440">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448934031-thumbnail.JPG" height="768" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-16-58-18_1654448936214.JPG" data-size="1440x1440">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-16-58-18_1654448936214-thumbnail.JPG" height="768" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448936214.JPG" data-size="1440x1440">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448936214-thumbnail.JPG" height="768" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-16-58-18_1654448938208.JPG" data-size="1440x1440">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-05-16-58-18_1654448938208-thumbnail.JPG" height="768" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448938208.JPG" data-size="1440x1440">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-05-16-58-18_1654448938208-thumbnail.JPG" height="768" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-06-14-51-36.JPG" data-size="1920x1440">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-06-14-51-36-thumbnail.JPG" height="576" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-51-36.JPG" data-size="1920x1440">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-51-36-thumbnail.JPG" height="576" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-06-14-52-30.JPG" data-size="4032x2268">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-06-14-52-30-thumbnail.JPG" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-30.JPG" data-size="4032x2268">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-30-thumbnail.JPG" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-06-14-52-43.JPG" data-size="4032x2268">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/17/gallery/2022-06-06-14-52-43-thumbnail.JPG" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-43.JPG" data-size="4032x2268">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-43-thumbnail.JPG" height="432" width="768" alt="" >
       </a>
       
     </figure>
@@ -342,47 +342,47 @@
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://github.com/Firstoff/repo1/sanatoriy-solnechnyy/"/>
-        <id>https://github.com/Firstoff/repo1/sanatoriy-solnechnyy/</id>
-        <media:content url="https://github.com/Firstoff/repo1/media/posts/16/2022-05-28-17-55-50.JPG" medium="image" />
+        <link href="https://cyberflat.ru/sanatoriy-solnechnyy/"/>
+        <id>https://cyberflat.ru/sanatoriy-solnechnyy/</id>
+        <media:content url="https://cyberflat.ru/media/posts/16/2022-05-28-17-55-50.JPG" medium="image" />
             <category term="holidays"/>
 
         <updated>2023-06-04T21:17:31+03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/Firstoff/repo1/media/posts/16/2022-05-28-17-55-50.JPG" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cyberflat.ru/media/posts/16/2022-05-28-17-55-50.JPG" class="type:primaryImage" alt="" /></p>
                 
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-24-09-46-24.JPG" data-size="4000x1800">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-24-09-46-24-thumbnail.JPG" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-46-24.JPG" data-size="4000x1800">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-46-24-thumbnail.JPG" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-24-09-44-05.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-24-09-44-05-thumbnail.JPG" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-44-05.JPG" data-size="4032x1816">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-44-05-thumbnail.JPG" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-24-09-48-03.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-24-09-48-03-thumbnail.JPG" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-03.JPG" data-size="4032x1816">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-03-thumbnail.JPG" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-24-09-48-39.JPG" data-size="4000x1800">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-24-09-48-39-thumbnail.JPG" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-39.JPG" data-size="4000x1800">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-39-thumbnail.JPG" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-24-09-51-40.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-24-09-51-40-thumbnail.JPG" height="346" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-51-40.JPG" data-size="4032x1816">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-51-40-thumbnail.JPG" height="346" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-28-17-55-50.JPG" data-size="1440x754">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/16/gallery/2022-05-28-17-55-50-thumbnail.JPG" height="402" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-28-17-55-50.JPG" data-size="1440x754">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-28-17-55-50-thumbnail.JPG" height="402" width="768" alt="" >
       </a>
       
     </figure>
@@ -396,97 +396,97 @@
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://github.com/Firstoff/repo1/22-maya-2023/"/>
-        <id>https://github.com/Firstoff/repo1/22-maya-2023/</id>
-        <media:content url="https://github.com/Firstoff/repo1/media/posts/15/photo_2023-05-23_09-13-51.jpg" medium="image" />
+        <link href="https://cyberflat.ru/22-maya-2023/"/>
+        <id>https://cyberflat.ru/22-maya-2023/</id>
+        <media:content url="https://cyberflat.ru/media/posts/15/photo_2023-05-23_09-13-51.jpg" medium="image" />
             <category term="agrofitness"/>
 
         <updated>2023-05-23T09:48:01+03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/Firstoff/repo1/media/posts/15/photo_2023-05-23_09-13-51.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cyberflat.ru/media/posts/15/photo_2023-05-23_09-13-51.jpg" class="type:primaryImage" alt="" /></p>
                 
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-49.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-49-thumbnail.jpg" height="1280" width="720" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-49.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-49-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-46.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-46-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-46.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-46-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-44.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-44-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-44.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-44-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-42.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-42-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-42.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-42-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-40.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-40-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-40.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-40-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-38.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-38-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-38.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-38-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-36.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-36-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-36.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-36-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-34.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-34-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-34.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-34-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-32.jpg" data-size="1280x722">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-32-thumbnail.jpg" height="433" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-32.jpg" data-size="1280x722">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-32-thumbnail.jpg" height="433" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-30.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-30-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-30.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-30-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-28.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-28-thumbnail.jpg" height="1280" width="720" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-28.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-28-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-26.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-26-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-26.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-26-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-24.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-24-thumbnail.jpg" height="1280" width="720" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-24.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-24-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-22.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-22-thumbnail.jpg" height="1280" width="720" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-22.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-22-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-20.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-20-thumbnail.jpg" height="1280" width="720" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-20.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-20-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-18.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/15/gallery/photo_2023-05-23_09-13-18-thumbnail.jpg" height="1280" width="720" alt="" >
+      <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-18.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-18-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure>
@@ -500,37 +500,37 @@
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://github.com/Firstoff/repo1/delaem-komposter-iz-20-truby/"/>
-        <id>https://github.com/Firstoff/repo1/delaem-komposter-iz-20-truby/</id>
-        <media:content url="https://github.com/Firstoff/repo1/media/posts/13/photo_2023-05-20_11-04-00.jpg" medium="image" />
+        <link href="https://cyberflat.ru/delaem-komposter-iz-20-truby/"/>
+        <id>https://cyberflat.ru/delaem-komposter-iz-20-truby/</id>
+        <media:content url="https://cyberflat.ru/media/posts/13/photo_2023-05-20_11-04-00.jpg" medium="image" />
             <category term="agrofitness"/>
 
         <updated>2023-05-20T11:14:40+03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/Firstoff/repo1/media/posts/13/photo_2023-05-20_11-04-00.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cyberflat.ru/media/posts/13/photo_2023-05-20_11-04-00.jpg" class="type:primaryImage" alt="" /></p>
                 
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/13/gallery/photo_2023-05-20_11-03-50.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/13/gallery/photo_2023-05-20_11-03-50-thumbnail.jpg" height="1280" width="720" alt="" >
+      <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-50.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-50-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/13/gallery/photo_2023-05-20_11-03-48.jpg" data-size="1280x722">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/13/gallery/photo_2023-05-20_11-03-48-thumbnail.jpg" height="433" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-48.jpg" data-size="1280x722">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-48-thumbnail.jpg" height="433" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/13/gallery/photo_2023-05-20_11-03-45.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/13/gallery/photo_2023-05-20_11-03-45-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/13/gallery/photo_2023-05-22_13-26-50.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/13/gallery/photo_2023-05-22_13-26-50-thumbnail.jpg" height="1280" width="720" alt="" >
+      <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50.jpg" data-size="720x1280">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure>
@@ -544,28 +544,28 @@
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://github.com/Firstoff/repo1/new-20-may-2023/"/>
-        <id>https://github.com/Firstoff/repo1/new-20-may-2023/</id>
-        <media:content url="https://github.com/Firstoff/repo1/media/posts/12/photo_2023-05-20_11-04-30.png" medium="image" />
+        <link href="https://cyberflat.ru/new-20-may-2023/"/>
+        <id>https://cyberflat.ru/new-20-may-2023/</id>
+        <media:content url="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.png" medium="image" />
             <category term="agrofitness"/>
 
         <updated>2023-05-20T11:13:14+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://github.com/Firstoff/repo1/media/posts/12/photo_2023-05-20_11-04-30.png" alt="" />
+                        <img src="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.png" alt="" />
                     Вчера привезли бочку пластиковую, объемом 278 л, по цене 2000 рэ, была наполнена четвертичной солью аммония, что-то для моющих средств или типа того, отмылась щеткой холодной водой без проблем, состав не вонючий, типа жидкого мыла, желающим искать по sunqat-seq90. Бочка поставлена служить емкостью для полива.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/Firstoff/repo1/media/posts/12/photo_2023-05-20_11-04-30.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
     Вчера привезли бочку пластиковую, объемом 278 л, по цене 2000 рэ, была наполнена четвертичной солью аммония, что-то для моющих средств или типа того, отмылась щеткой холодной водой без проблем, состав не вонючий, типа жидкого мыла, желающим искать по sunqat-seq90.<br>Бочка поставлена служить емкостью для полива.<br><br>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/12/photo_2023-05-20_11-04-30.jpg" height="1280" width="720" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://github.com/Firstoff/repo1/media/posts/12/responsive/photo_2023-05-20_11-04-30-xs.jpg 300w ,https://github.com/Firstoff/repo1/media/posts/12/responsive/photo_2023-05-20_11-04-30-sm.jpg 480w ,https://github.com/Firstoff/repo1/media/posts/12/responsive/photo_2023-05-20_11-04-30-md.jpg 768w ,https://github.com/Firstoff/repo1/media/posts/12/responsive/photo_2023-05-20_11-04-30-lg.jpg 1024w ,https://github.com/Firstoff/repo1/media/posts/12/responsive/photo_2023-05-20_11-04-30-xl.jpg 1360w ,https://github.com/Firstoff/repo1/media/posts/12/responsive/photo_2023-05-20_11-04-30-2xl.jpg 1600w">
+      <img loading="lazy" src="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.jpg" height="1280" width="720" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-xs.jpg 300w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-sm.jpg 480w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-md.jpg 768w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-lg.jpg 1024w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-xl.jpg 1360w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-2xl.jpg 1600w">
       
     </figure>
             ]]>
@@ -576,32 +576,32 @@
         <author>
             <name>Korchagin</name>
         </author>
-        <link href="https://github.com/Firstoff/repo1/19-maya-2023/"/>
-        <id>https://github.com/Firstoff/repo1/19-maya-2023/</id>
-        <media:content url="https://github.com/Firstoff/repo1/media/posts/14/photo_2023-05-20_11-04-07.jpg" medium="image" />
+        <link href="https://cyberflat.ru/19-maya-2023/"/>
+        <id>https://cyberflat.ru/19-maya-2023/</id>
+        <media:content url="https://cyberflat.ru/media/posts/14/photo_2023-05-20_11-04-07.jpg" medium="image" />
             <category term="cats"/>
 
         <updated>2023-05-19T11:15:00+03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/Firstoff/repo1/media/posts/14/photo_2023-05-20_11-04-07.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cyberflat.ru/media/posts/14/photo_2023-05-20_11-04-07.jpg" class="type:primaryImage" alt="" /></p>
                 
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/14/gallery/photo_2023-05-20_11-04-27.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/14/gallery/photo_2023-05-20_11-04-27-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-27.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-27-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/14/gallery/photo_2023-05-20_11-04-25.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/14/gallery/photo_2023-05-20_11-04-25-thumbnail.jpg" height="432" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-25.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-25-thumbnail.jpg" height="432" width="768" alt="" >
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://github.com/Firstoff/repo1/media/posts/14/gallery/photo_2023-05-20_11-04-07.jpg" data-size="1280x647">
-        <img loading="lazy" src="https://github.com/Firstoff/repo1/media/posts/14/gallery/photo_2023-05-20_11-04-07-thumbnail.jpg" height="388" width="768" alt="" >
+      <a href="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-07.jpg" data-size="1280x647">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-07-thumbnail.jpg" height="388" width="768" alt="" >
       </a>
       
     </figure>
