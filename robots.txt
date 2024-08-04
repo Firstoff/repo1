@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://github.com/Firstoff/repo1/sitemap.xml
+Sitemap: https://github.io/Firstoff/repo1/sitemap.xml
