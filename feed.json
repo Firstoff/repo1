@@ -13,7 +13,7 @@
             "id": "https://cyberflat.ru/abhaziya-novyy-afon-sentyabr24/",
             "url": "https://cyberflat.ru/abhaziya-novyy-afon-sentyabr24/",
             "title": "Абхазия, Новый Афон, сентябрь&#x27;24",
-            "content_html": "<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://cyberflat.ru/media/posts/31/20240904_165840.jpg\" alt=\"\" width=\"4032\" height=\"1816\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://cyberflat.ru/media/posts/31/responsive/20240904_165840-xs.jpg 300w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-sm.jpg 480w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-md.jpg 768w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-lg.jpg 1024w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-xl.jpg 1360w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2xl.jpg 1600w\"></figure>",
+            "content_html": "<figure class=\"post__image post__image--wide\"><img loading=\"lazy\"  src=\"https://cyberflat.ru/media/posts/31/20240904_165840-2.jpg\" alt=\"\" width=\"758\" height=\"341\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-xs.jpg 300w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-sm.jpg 480w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-md.jpg 768w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-lg.jpg 1024w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-xl.jpg 1360w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-2xl.jpg 1600w\"></figure>\n<hr>\n<figure class=\"post__image post__image--wide\"><img loading=\"lazy\"  src=\"https://cyberflat.ru/media/posts/31/20240906_185517.jpg\" alt=\"\" width=\"582\" height=\"230\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://cyberflat.ru/media/posts/31/responsive/20240906_185517-xs.jpg 300w ,https://cyberflat.ru/media/posts/31/responsive/20240906_185517-sm.jpg 480w ,https://cyberflat.ru/media/posts/31/responsive/20240906_185517-md.jpg 768w ,https://cyberflat.ru/media/posts/31/responsive/20240906_185517-lg.jpg 1024w ,https://cyberflat.ru/media/posts/31/responsive/20240906_185517-xl.jpg 1360w ,https://cyberflat.ru/media/posts/31/responsive/20240906_185517-2xl.jpg 1600w\"></figure>\n<hr>\n<figure class=\"post__image post__image--wide\"><img loading=\"lazy\"  src=\"https://cyberflat.ru/media/posts/31/20240908_162528.jpg\" alt=\"\" width=\"4032\" height=\"1816\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://cyberflat.ru/media/posts/31/responsive/20240908_162528-xs.jpg 300w ,https://cyberflat.ru/media/posts/31/responsive/20240908_162528-sm.jpg 480w ,https://cyberflat.ru/media/posts/31/responsive/20240908_162528-md.jpg 768w ,https://cyberflat.ru/media/posts/31/responsive/20240908_162528-lg.jpg 1024w ,https://cyberflat.ru/media/posts/31/responsive/20240908_162528-xl.jpg 1360w ,https://cyberflat.ru/media/posts/31/responsive/20240908_162528-2xl.jpg 1600w\"></figure>",
             "image": "https://cyberflat.ru/media/posts/31/20240910_121229.jpg",
             "author": {
                 "name": "Korchagin"
@@ -21,7 +21,7 @@
             "tags": [
             ],
             "date_published": "2024-09-15T12:27:22+03:00",
-            "date_modified": "2024-09-15T21:11:49+03:00"
+            "date_modified": "2024-09-15T21:15:56+03:00"
         },
         {
             "id": "https://cyberflat.ru/the-heart-of-the-ocean/",
