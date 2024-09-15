@@ -3,34 +3,12 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2024-09-15T21:15:56+03:00</updated>
+    <updated>2023-09-24T20:14:45+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
     <id>https://cyberflat.ru</id>
 
-    <entry>
-        <title>Абхазия, Новый Афон, сентябрь&#x27;24</title>
-        <author>
-            <name>Korchagin</name>
-        </author>
-        <link href="https://cyberflat.ru/abhaziya-novyy-afon-sentyabr24/"/>
-        <id>https://cyberflat.ru/abhaziya-novyy-afon-sentyabr24/</id>
-        <media:content url="https://cyberflat.ru/media/posts/31/20240910_121229.jpg" medium="image" />
-
-        <updated>2024-09-15T12:27:22+03:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://cyberflat.ru/media/posts/31/20240910_121229.jpg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image post__image--wide"><img loading="lazy"  src="https://cyberflat.ru/media/posts/31/20240904_165840-2.jpg" alt="" width="758" height="341" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-xs.jpg 300w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-sm.jpg 480w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-md.jpg 768w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-lg.jpg 1024w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-xl.jpg 1360w ,https://cyberflat.ru/media/posts/31/responsive/20240904_165840-2-2xl.jpg 1600w"></figure>
-<hr>
-<figure class="post__image post__image--wide"><img loading="lazy"  src="https://cyberflat.ru/media/posts/31/20240906_185517.jpg" alt="" width="582" height="230" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/31/responsive/20240906_185517-xs.jpg 300w ,https://cyberflat.ru/media/posts/31/responsive/20240906_185517-sm.jpg 480w ,https://cyberflat.ru/media/posts/31/responsive/20240906_185517-md.jpg 768w ,https://cyberflat.ru/media/posts/31/responsive/20240906_185517-lg.jpg 1024w ,https://cyberflat.ru/media/posts/31/responsive/20240906_185517-xl.jpg 1360w ,https://cyberflat.ru/media/posts/31/responsive/20240906_185517-2xl.jpg 1600w"></figure>
-<hr>
-<figure class="post__image post__image--wide"><img loading="lazy"  src="https://cyberflat.ru/media/posts/31/20240908_162528.jpg" alt="" width="4032" height="1816" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/31/responsive/20240908_162528-xs.jpg 300w ,https://cyberflat.ru/media/posts/31/responsive/20240908_162528-sm.jpg 480w ,https://cyberflat.ru/media/posts/31/responsive/20240908_162528-md.jpg 768w ,https://cyberflat.ru/media/posts/31/responsive/20240908_162528-lg.jpg 1024w ,https://cyberflat.ru/media/posts/31/responsive/20240908_162528-xl.jpg 1360w ,https://cyberflat.ru/media/posts/31/responsive/20240908_162528-2xl.jpg 1600w"></figure>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>The Heart of the Ocean</title>
         <author>
@@ -590,6 +568,45 @@
       <img loading="lazy" src="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.jpg" height="1280" width="720" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-xs.jpg 300w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-sm.jpg 480w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-md.jpg 768w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-lg.jpg 1024w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-xl.jpg 1360w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-2xl.jpg 1600w">
       
     </figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>19 мая 2023</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/19-maya-2023/"/>
+        <id>https://cyberflat.ru/19-maya-2023/</id>
+        <media:content url="https://cyberflat.ru/media/posts/14/photo_2023-05-20_11-04-07.jpg" medium="image" />
+            <category term="cats"/>
+
+        <updated>2023-05-19T11:15:00+03:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cyberflat.ru/media/posts/14/photo_2023-05-20_11-04-07.jpg" class="type:primaryImage" alt="" /></p>
+                
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-27.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-27-thumbnail.jpg" height="432" width="768" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-25.jpg" data-size="1280x720">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-25-thumbnail.jpg" height="432" width="768" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-07.jpg" data-size="1280x647">
+        <img loading="lazy" src="https://cyberflat.ru/media/posts/14/gallery/photo_2023-05-20_11-04-07-thumbnail.jpg" height="388" width="768" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
             ]]>
         </content>
     </entry>
