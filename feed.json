@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://cyberflat.ru/test-code/",
+            "url": "https://cyberflat.ru/test-code/",
+            "title": "Парсинг 1CV8Clst.lst",
+            "summary": "# Путь к файлу 1CV8Clst.lst $clusterFile = \"C:\\code\\PowerShell\\1c\\1CV8Clst.lst\" if (-not (Test-Path $clusterFile)) { Write-Error \"Файл $clusterFile не найден!\" exit 1 } $data = Get-Content -Path $clusterFile -Raw # Функция для точного извлечения ClusterServer из начала файла function Get-ClusterServer { param ($content) # Ищем конкретную структуру&hellip;",
+            "content_html": "<div>\n<div># Путь к файлу 1CV8Clst.lst</div>\n<div>$clusterFile = \"C:\\code\\PowerShell\\1c\\1CV8Clst.lst\"</div>\n<br>\n<div>if (-not (Test-Path $clusterFile)) {</div>\n<div>    Write-Error \"Файл $clusterFile не найден!\"</div>\n<div>    exit 1</div>\n<div>}</div>\n<br>\n<div>$data = Get-Content -Path $clusterFile -Raw</div>\n<br>\n<div># Функция для точного извлечения ClusterServer из начала файла</div>\n<div>function Get-ClusterServer {</div>\n<div>    param ($content)</div>\n<div>   </div>\n<div>    # Ищем конкретную структуру в начале файла с учетом дефиса в имени</div>\n<div>    $pattern = '{\\s*0,[^{]+{[^}]+\"[^\"]*-\\d*\"[^}]*{[^}]*\"([^\"-]+-[^\"]+)\",\\s*(\\d+)'</div>\n<div>    $match = [regex]::Match($content, $pattern)</div>\n<div>   </div>\n<div>    if ($match.Success) {</div>\n<div>        $server = $match.Groups[1].Value.Trim()</div>\n<div>        $port = $match.Groups[2].Value.Trim()</div>\n<div>        return \"${server}:${port}\"</div>\n<div>    }</div>\n<div>    else {</div>\n<div>        # Дополнительная попытка найти альтернативный формат</div>\n<div>        $altPattern = '{\\s*0,[^{]+{[^}]+\"([^\"-]+-[^\"]+)\",\\s*(\\d+)'</div>\n<div>        $altMatch = [regex]::Match($content, $altPattern)</div>\n<div>       </div>\n<div>        if ($altMatch.Success) {</div>\n<div>            $server = $altMatch.Groups[1].Value.Trim()</div>\n<div>            $port = $altMatch.Groups[2].Value.Trim()</div>\n<div>            return \"${server}:${port}\"</div>\n<div>        }</div>\n<div>    }</div>\n<div>   </div>\n<div>    Write-Warning \"Не удалось определить ClusterServer в файле\"</div>\n<div>    return \"Unknown:0\"</div>\n<div>}</div>\n<br>\n<div>$clusterServer = Get-ClusterServer -content $data</div>\n<div>Write-Host \"Определен ClusterServer: $clusterServer\" -ForegroundColor Cyan</div>\n<br>\n<div># Парсинг баз данных</div>\n<div>$dbPattern = '\\{[0-9a-f-]+,\"[^\"]+\",\"[^\"]+\",\"[^\"]+\",\"[^\"]+\",\"[^\"]+\"[^}]*\\}'</div>\n<div>$dbMatches = [regex]::Matches($data, $dbPattern)</div>\n<br>\n<div>$result = @()</div>\n<br>\n<div>foreach ($match in $dbMatches) {</div>\n<div>    $block = $match.Value</div>\n<div>    $fields = $block -split ',' | ForEach-Object { $_.Trim('\"{}') }</div>\n<div>   </div>\n<div>    if ($fields.Count -ge 6) {</div>\n<div>        $dbName = $fields[2]</div>\n<div>        $dbmsType = $fields[3]</div>\n<div>        $sqlServer = $fields[4]</div>\n<div>        $dbNameInSql = $fields[5]</div>\n<div>       </div>\n<div>        $connStringPart = $fields[8]</div>\n<div>        $dbsrvr = if ($connStringPart -match 'DBSrvr=([^;]+)') { $matches[1] } else { $sqlServer }</div>\n<div>       </div>\n<div>        $result += [PSCustomObject]@{</div>\n<div>            BaseName      = $dbName</div>\n<div>            DBMS          = $dbmsType</div>\n<div>            SQLServer     = $dbsrvr</div>\n<div>            DBNameInSQL   = $dbNameInSql</div>\n<div>            ClusterServer = $clusterServer</div>\n<div>        }</div>\n<div>    }</div>\n<div>}</div>\n<br>\n<div># Вывод результатов</div>\n<div>$result | Format-Table -AutoSize</div>\n<br>\n<div># Экспорт в CSV</div>\n<div>#$csvPath = Join-Path (Split-Path $clusterFile) \"1C_Databases_Report_$(Get-Date -Format 'yyyyMMdd_HHmmss').csv\"</div>\n<div>#$result | Export-Csv -Path $csvPath -NoTypeInformation -Encoding UTF8 -Force</div>\n<div>#Write-Host \"Отчет сохранен в $csvPath\" -ForegroundColor Green</div>\n</div>",
+            "image": "https://cyberflat.ru/media/posts/34/2023-10-18-14-06-54-2-2xl.webp",
+            "author": {
+                "name": "Korchagin"
+            },
+            "tags": [
+                   "1C"
+            ],
+            "date_published": "2025-08-13T01:43:50+03:00",
+            "date_modified": "2025-08-13T01:49:39+03:00"
+        },
+        {
             "id": "https://cyberflat.ru/soft-touch/",
             "url": "https://cyberflat.ru/soft-touch/",
             "title": "Soft-touch",
@@ -141,21 +157,6 @@
             ],
             "date_published": "2023-05-23T09:48:01+03:00",
             "date_modified": "2023-05-23T09:48:01+03:00"
-        },
-        {
-            "id": "https://cyberflat.ru/delaem-komposter-iz-20-truby/",
-            "url": "https://cyberflat.ru/delaem-komposter-iz-20-truby/",
-            "title": "Делаем компостер из 20 трубы",
-            "content_html": "\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-50.jpg\" data-size=\"720x1280\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-50-thumbnail.jpg\" height=\"1280\" width=\"720\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-48.jpg\" data-size=\"1280x722\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-48-thumbnail.jpg\" height=\"433\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45.jpg\" data-size=\"1280x720\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45-thumbnail.jpg\" height=\"432\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50.jpg\" data-size=\"720x1280\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50-thumbnail.jpg\" height=\"1280\" width=\"720\" alt=\"\" >\n      </a>\n      \n    </figure>\n    </div>\n  </div>",
-            "image": "https://cyberflat.ru/media/posts/13/photo_2023-05-20_11-04-00.jpg",
-            "author": {
-                "name": "Korchagin"
-            },
-            "tags": [
-                   "agrofitness"
-            ],
-            "date_published": "2023-05-20T11:14:40+03:00",
-            "date_modified": "2023-05-22T13:27:38+03:00"
         }
     ]
 }

@@ -3,12 +3,115 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2025-08-12T16:15:00+03:00</updated>
+    <updated>2025-08-13T01:49:39+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
     <id>https://cyberflat.ru</id>
 
+    <entry>
+        <title>Парсинг 1CV8Clst.lst</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/test-code/"/>
+        <id>https://cyberflat.ru/test-code/</id>
+        <media:content url="https://cyberflat.ru/media/posts/34/2023-10-18-14-06-54-2-2xl.webp" medium="image" />
+            <category term="1C"/>
+
+        <updated>2025-08-13T01:43:50+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cyberflat.ru/media/posts/34/2023-10-18-14-06-54-2-2xl.webp" alt="" />
+                    # Путь к файлу 1CV8Clst.lst $clusterFile = "C:\code\PowerShell\1c\1CV8Clst.lst" if (-not (Test-Path $clusterFile)) { Write-Error "Файл $clusterFile не найден!" exit 1 } $data = Get-Content -Path $clusterFile -Raw # Функция для точного извлечения ClusterServer из начала файла function Get-ClusterServer { param ($content) # Ищем конкретную структуру&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cyberflat.ru/media/posts/34/2023-10-18-14-06-54-2-2xl.webp" class="type:primaryImage" alt="" /></p>
+                <div>
+<div># Путь к файлу 1CV8Clst.lst</div>
+<div>$clusterFile = "C:\code\PowerShell\1c\1CV8Clst.lst"</div>
+<br>
+<div>if (-not (Test-Path $clusterFile)) {</div>
+<div>    Write-Error "Файл $clusterFile не найден!"</div>
+<div>    exit 1</div>
+<div>}</div>
+<br>
+<div>$data = Get-Content -Path $clusterFile -Raw</div>
+<br>
+<div># Функция для точного извлечения ClusterServer из начала файла</div>
+<div>function Get-ClusterServer {</div>
+<div>    param ($content)</div>
+<div>   </div>
+<div>    # Ищем конкретную структуру в начале файла с учетом дефиса в имени</div>
+<div>    $pattern = '{\s*0,[^{]+{[^}]+"[^"]*-\d*"[^}]*{[^}]*"([^"-]+-[^"]+)",\s*(\d+)'</div>
+<div>    $match = [regex]::Match($content, $pattern)</div>
+<div>   </div>
+<div>    if ($match.Success) {</div>
+<div>        $server = $match.Groups[1].Value.Trim()</div>
+<div>        $port = $match.Groups[2].Value.Trim()</div>
+<div>        return "${server}:${port}"</div>
+<div>    }</div>
+<div>    else {</div>
+<div>        # Дополнительная попытка найти альтернативный формат</div>
+<div>        $altPattern = '{\s*0,[^{]+{[^}]+"([^"-]+-[^"]+)",\s*(\d+)'</div>
+<div>        $altMatch = [regex]::Match($content, $altPattern)</div>
+<div>       </div>
+<div>        if ($altMatch.Success) {</div>
+<div>            $server = $altMatch.Groups[1].Value.Trim()</div>
+<div>            $port = $altMatch.Groups[2].Value.Trim()</div>
+<div>            return "${server}:${port}"</div>
+<div>        }</div>
+<div>    }</div>
+<div>   </div>
+<div>    Write-Warning "Не удалось определить ClusterServer в файле"</div>
+<div>    return "Unknown:0"</div>
+<div>}</div>
+<br>
+<div>$clusterServer = Get-ClusterServer -content $data</div>
+<div>Write-Host "Определен ClusterServer: $clusterServer" -ForegroundColor Cyan</div>
+<br>
+<div># Парсинг баз данных</div>
+<div>$dbPattern = '\{[0-9a-f-]+,"[^"]+","[^"]+","[^"]+","[^"]+","[^"]+"[^}]*\}'</div>
+<div>$dbMatches = [regex]::Matches($data, $dbPattern)</div>
+<br>
+<div>$result = @()</div>
+<br>
+<div>foreach ($match in $dbMatches) {</div>
+<div>    $block = $match.Value</div>
+<div>    $fields = $block -split ',' | ForEach-Object { $_.Trim('"{}') }</div>
+<div>   </div>
+<div>    if ($fields.Count -ge 6) {</div>
+<div>        $dbName = $fields[2]</div>
+<div>        $dbmsType = $fields[3]</div>
+<div>        $sqlServer = $fields[4]</div>
+<div>        $dbNameInSql = $fields[5]</div>
+<div>       </div>
+<div>        $connStringPart = $fields[8]</div>
+<div>        $dbsrvr = if ($connStringPart -match 'DBSrvr=([^;]+)') { $matches[1] } else { $sqlServer }</div>
+<div>       </div>
+<div>        $result += [PSCustomObject]@{</div>
+<div>            BaseName      = $dbName</div>
+<div>            DBMS          = $dbmsType</div>
+<div>            SQLServer     = $dbsrvr</div>
+<div>            DBNameInSQL   = $dbNameInSql</div>
+<div>            ClusterServer = $clusterServer</div>
+<div>        }</div>
+<div>    }</div>
+<div>}</div>
+<br>
+<div># Вывод результатов</div>
+<div>$result | Format-Table -AutoSize</div>
+<br>
+<div># Экспорт в CSV</div>
+<div>#$csvPath = Join-Path (Split-Path $clusterFile) "1C_Databases_Report_$(Get-Date -Format 'yyyyMMdd_HHmmss').csv"</div>
+<div>#$result | Export-Csv -Path $csvPath -NoTypeInformation -Encoding UTF8 -Force</div>
+<div>#Write-Host "Отчет сохранен в $csvPath" -ForegroundColor Green</div>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Soft-touch</title>
         <author>
@@ -524,50 +627,6 @@
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-18.jpg" data-size="720x1280">
         <img loading="lazy" src="https://cyberflat.ru/media/posts/15/gallery/photo_2023-05-23_09-13-18-thumbnail.jpg" height="1280" width="720" alt="" >
-      </a>
-      
-    </figure>
-    </div>
-  </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Делаем компостер из 20 трубы</title>
-        <author>
-            <name>Korchagin</name>
-        </author>
-        <link href="https://cyberflat.ru/delaem-komposter-iz-20-truby/"/>
-        <id>https://cyberflat.ru/delaem-komposter-iz-20-truby/</id>
-        <media:content url="https://cyberflat.ru/media/posts/13/photo_2023-05-20_11-04-00.jpg" medium="image" />
-            <category term="agrofitness"/>
-
-        <updated>2023-05-20T11:14:40+03:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://cyberflat.ru/media/posts/13/photo_2023-05-20_11-04-00.jpg" class="type:primaryImage" alt="" /></p>
-                
-  <div  class="gallery-wrapper">
-    <div class="gallery" data-columns="3">
-      <figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-50.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-50-thumbnail.jpg" height="1280" width="720" alt="" >
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-48.jpg" data-size="1280x722">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-48-thumbnail.jpg" height="433" width="768" alt="" >
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45.jpg" data-size="1280x720">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-20_11-03-45-thumbnail.jpg" height="432" width="768" alt="" >
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50.jpg" data-size="720x1280">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/13/gallery/photo_2023-05-22_13-26-50-thumbnail.jpg" height="1280" width="720" alt="" >
       </a>
       
     </figure>
