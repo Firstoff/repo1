@@ -3,12 +3,30 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2024-11-25T21:22:49+03:00</updated>
+    <updated>2025-08-12T16:15:00+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
     <id>https://cyberflat.ru</id>
 
+    <entry>
+        <title>Soft-touch</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/soft-touch/"/>
+        <id>https://cyberflat.ru/soft-touch/</id>
+        <media:content url="https://cyberflat.ru/media/posts/32/DSC_0089_004-kopiya.JPG" medium="image" />
+
+        <updated>2025-08-12T16:15:00+03:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cyberflat.ru/media/posts/32/DSC_0089_004-kopiya.JPG" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image post__image--full"><img loading="lazy"  src="https://cyberflat.ru/media/posts/32/DSC_0089.JPG" alt="" width="6000" height="4000" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/32/responsive/DSC_0089-xs.JPG 300w ,https://cyberflat.ru/media/posts/32/responsive/DSC_0089-sm.JPG 480w ,https://cyberflat.ru/media/posts/32/responsive/DSC_0089-md.JPG 768w ,https://cyberflat.ru/media/posts/32/responsive/DSC_0089-lg.JPG 1024w ,https://cyberflat.ru/media/posts/32/responsive/DSC_0089-xl.JPG 1360w ,https://cyberflat.ru/media/posts/32/responsive/DSC_0089-2xl.JPG 1600w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Показывают рыбов</title>
         <author>
@@ -555,38 +573,6 @@
     </figure>
     </div>
   </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>New 20 may 2023</title>
-        <author>
-            <name>Korchagin</name>
-        </author>
-        <link href="https://cyberflat.ru/new-20-may-2023/"/>
-        <id>https://cyberflat.ru/new-20-may-2023/</id>
-        <media:content url="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.png" medium="image" />
-            <category term="agrofitness"/>
-
-        <updated>2023-05-20T11:13:14+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.png" alt="" />
-                    Вчера привезли бочку пластиковую, объемом 278 л, по цене 2000 рэ, была наполнена четвертичной солью аммония, что-то для моющих средств или типа того, отмылась щеткой холодной водой без проблем, состав не вонючий, типа жидкого мыла, желающим искать по sunqat-seq90. Бочка поставлена служить емкостью для полива.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.png" class="type:primaryImage" alt="" /></p>
-                
-  <p>
-    Вчера привезли бочку пластиковую, объемом 278 л, по цене 2000 рэ, была наполнена четвертичной солью аммония, что-то для моющих средств или типа того, отмылась щеткой холодной водой без проблем, состав не вонючий, типа жидкого мыла, желающим искать по sunqat-seq90.<br>Бочка поставлена служить емкостью для полива.<br><br>
-  </p>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cyberflat.ru/media/posts/12/photo_2023-05-20_11-04-30.jpg" height="1280" width="720" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-xs.jpg 300w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-sm.jpg 480w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-md.jpg 768w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-lg.jpg 1024w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-xl.jpg 1360w ,https://cyberflat.ru/media/posts/12/responsive/photo_2023-05-20_11-04-30-2xl.jpg 1600w">
-      
-    </figure>
             ]]>
         </content>
     </entry>
