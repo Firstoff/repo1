@@ -3,7 +3,7 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2025-08-13T07:42:03+03:00</updated>
+    <updated>2025-09-22T22:30:51+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
@@ -30,84 +30,84 @@
             <![CDATA[
                     <p><img src="https://cyberflat.ru/media/posts/34/2023-10-18-14-06-54-2-2xl.webp" class="type:primaryImage" alt="" /></p>
                 <div>
-<div># Путь к файлу 1CV8Clst.lst</div>
-<div>$clusterFile = "C:\code\PowerShell\1c\1CV8Clst.lst"</div>
+<div><code># Путь к файлу 1CV8Clst.lst</code></div>
+<div><code>$clusterFile = "C:\code\PowerShell\1c\1CV8Clst.lst"</code></div>
 <br>
-<div>if (-not (Test-Path $clusterFile)) {</div>
-<div>    Write-Error "Файл $clusterFile не найден!"</div>
-<div>    exit 1</div>
-<div>}</div>
+<div><code>if (-not (Test-Path $clusterFile)) {</code></div>
+<div><code>    Write-Error "Файл $clusterFile не найден!"</code></div>
+<div><code>    exit 1</code></div>
+<div><code>}</code></div>
 <br>
-<div>$data = Get-Content -Path $clusterFile -Raw</div>
+<div><code>$data = Get-Content -Path $clusterFile -Raw</code></div>
 <br>
-<div># Функция для точного извлечения ClusterServer из начала файла</div>
-<div>function Get-ClusterServer {</div>
-<div>    param ($content)</div>
-<div>   </div>
-<div>    # Ищем конкретную структуру в начале файла с учетом дефиса в имени</div>
-<div>    $pattern = '{\s*0,[^{]+{[^}]+"[^"]*-\d*"[^}]*{[^}]*"([^"-]+-[^"]+)",\s*(\d+)'</div>
-<div>    $match = [regex]::Match($content, $pattern)</div>
-<div>   </div>
-<div>    if ($match.Success) {</div>
-<div>        $server = $match.Groups[1].Value.Trim()</div>
-<div>        $port = $match.Groups[2].Value.Trim()</div>
-<div>        return "${server}:${port}"</div>
-<div>    }</div>
-<div>    else {</div>
-<div>        # Дополнительная попытка найти альтернативный формат</div>
-<div>        $altPattern = '{\s*0,[^{]+{[^}]+"([^"-]+-[^"]+)",\s*(\d+)'</div>
-<div>        $altMatch = [regex]::Match($content, $altPattern)</div>
-<div>       </div>
-<div>        if ($altMatch.Success) {</div>
-<div>            $server = $altMatch.Groups[1].Value.Trim()</div>
-<div>            $port = $altMatch.Groups[2].Value.Trim()</div>
-<div>            return "${server}:${port}"</div>
-<div>        }</div>
-<div>    }</div>
-<div>   </div>
-<div>    Write-Warning "Не удалось определить ClusterServer в файле"</div>
-<div>    return "Unknown:0"</div>
-<div>}</div>
+<div><code># Функция для точного извлечения ClusterServer из начала файла</code></div>
+<div><code>function Get-ClusterServer {</code></div>
+<div><code>    param ($content)</code></div>
+<div><code>   </code></div>
+<div><code>    # Ищем конкретную структуру в начале файла с учетом дефиса в имени</code></div>
+<div><code>    $pattern = '{\s*0,[^{]+{[^}]+"[^"]*-\d*"[^}]*{[^}]*"([^"-]+-[^"]+)",\s*(\d+)'</code></div>
+<div><code>    $match = [regex]::Match($content, $pattern)</code></div>
+<div><code>   </code></div>
+<div><code>    if ($match.Success) {</code></div>
+<div><code>        $server = $match.Groups[1].Value.Trim()</code></div>
+<div><code>        $port = $match.Groups[2].Value.Trim()</code></div>
+<div><code>        return "${server}:${port}"</code></div>
+<div><code>    }</code></div>
+<div><code>    else {</code></div>
+<div><code>        # Дополнительная попытка найти альтернативный формат</code></div>
+<div><code>        $altPattern = '{\s*0,[^{]+{[^}]+"([^"-]+-[^"]+)",\s*(\d+)'</code></div>
+<div><code>        $altMatch = [regex]::Match($content, $altPattern)</code></div>
+<div><code>       </code></div>
+<div><code>        if ($altMatch.Success) {</code></div>
+<div><code>            $server = $altMatch.Groups[1].Value.Trim()</code></div>
+<div><code>            $port = $altMatch.Groups[2].Value.Trim()</code></div>
+<div><code>            return "${server}:${port}"</code></div>
+<div><code>        }</code></div>
+<div><code>    }</code></div>
+<div><code>   </code></div>
+<div><code>    Write-Warning "Не удалось определить ClusterServer в файле"</code></div>
+<div><code>    return "Unknown:0"</code></div>
+<div><code>}</code></div>
 <br>
-<div>$clusterServer = Get-ClusterServer -content $data</div>
-<div>Write-Host "Определен ClusterServer: $clusterServer" -ForegroundColor Cyan</div>
+<div><code>$clusterServer = Get-ClusterServer -content $data</code></div>
+<div><code>Write-Host "Определен ClusterServer: $clusterServer" -ForegroundColor Cyan</code></div>
 <br>
-<div># Парсинг баз данных</div>
-<div>$dbPattern = '\{[0-9a-f-]+,"[^"]+","[^"]+","[^"]+","[^"]+","[^"]+"[^}]*\}'</div>
-<div>$dbMatches = [regex]::Matches($data, $dbPattern)</div>
+<div><code># Парсинг баз данных</code></div>
+<div><code>$dbPattern = '\{[0-9a-f-]+,"[^"]+","[^"]+","[^"]+","[^"]+","[^"]+"[^}]*\}'</code></div>
+<div><code>$dbMatches = [regex]::Matches($data, $dbPattern)</code></div>
 <br>
-<div>$result = @()</div>
+<div><code>$result = @()</code></div>
 <br>
-<div>foreach ($match in $dbMatches) {</div>
-<div>    $block = $match.Value</div>
-<div>    $fields = $block -split ',' | ForEach-Object { $_.Trim('"{}') }</div>
-<div>   </div>
-<div>    if ($fields.Count -ge 6) {</div>
-<div>        $dbName = $fields[2]</div>
-<div>        $dbmsType = $fields[3]</div>
-<div>        $sqlServer = $fields[4]</div>
-<div>        $dbNameInSql = $fields[5]</div>
-<div>       </div>
-<div>        $connStringPart = $fields[8]</div>
-<div>        $dbsrvr = if ($connStringPart -match 'DBSrvr=([^;]+)') { $matches[1] } else { $sqlServer }</div>
-<div>       </div>
-<div>        $result += [PSCustomObject]@{</div>
-<div>            BaseName      = $dbName</div>
-<div>            DBMS          = $dbmsType</div>
-<div>            SQLServer     = $dbsrvr</div>
-<div>            DBNameInSQL   = $dbNameInSql</div>
-<div>            ClusterServer = $clusterServer</div>
-<div>        }</div>
-<div>    }</div>
-<div>}</div>
+<div><code>foreach ($match in $dbMatches) {</code></div>
+<div><code>    $block = $match.Value</code></div>
+<div><code>    $fields = $block -split ',' | ForEach-Object { $_.Trim('"{}') }</code></div>
+<div><code>   </code></div>
+<div><code>    if ($fields.Count -ge 6) {</code></div>
+<div><code>        $dbName = $fields[2]</code></div>
+<div><code>        $dbmsType = $fields[3]</code></div>
+<div><code>        $sqlServer = $fields[4]</code></div>
+<div><code>        $dbNameInSql = $fields[5]</code></div>
+<div><code>       </code></div>
+<div><code>        $connStringPart = $fields[8]</code></div>
+<div><code>        $dbsrvr = if ($connStringPart -match 'DBSrvr=([^;]+)') { $matches[1] } else { $sqlServer }</code></div>
+<div><code>       </code></div>
+<div><code>        $result += [PSCustomObject]@{</code></div>
+<div><code>            BaseName      = $dbName</code></div>
+<div><code>            DBMS          = $dbmsType</code></div>
+<div><code>            SQLServer     = $dbsrvr</code></div>
+<div><code>            DBNameInSQL   = $dbNameInSql</code></div>
+<div><code>            ClusterServer = $clusterServer</code></div>
+<div><code>        }</code></div>
+<div><code>    }</code></div>
+<div><code>}</code></div>
 <br>
-<div># Вывод результатов</div>
-<div>$result | Format-Table -AutoSize</div>
+<div><code># Вывод результатов</code></div>
+<div><code>$result | Format-Table -AutoSize</code></div>
 <br>
-<div># Экспорт в CSV</div>
-<div>#$csvPath = Join-Path (Split-Path $clusterFile) "1C_Databases_Report_$(Get-Date -Format 'yyyyMMdd_HHmmss').csv"</div>
-<div>#$result | Export-Csv -Path $csvPath -NoTypeInformation -Encoding UTF8 -Force</div>
-<div>#Write-Host "Отчет сохранен в $csvPath" -ForegroundColor Green</div>
+<div><code># Экспорт в CSV</code></div>
+<div><code>#$csvPath = Join-Path (Split-Path $clusterFile) "1C_Databases_Report_$(Get-Date -Format 'yyyyMMdd_HHmmss').csv"</code></div>
+<div><code>#$result | Export-Csv -Path $csvPath -NoTypeInformation -Encoding UTF8 -Force</code></div>
+<div><code>#Write-Host "Отчет сохранен в $csvPath" -ForegroundColor Green</code></div>
 </div>
             ]]>
         </content>
