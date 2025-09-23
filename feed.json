@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://cyberflat.ru/book-1/",
+            "url": "https://cyberflat.ru/book-1/",
+            "title": "Book 1",
+            "summary": "«Тот, кто призывает других к борьбе, но сам не готов разделить её тяготы, — не соратник, а трутень. Настоящий человек не прячется за чужими спинами, а идёт вперёд, даже если это стоит ему жизни. Только так можно быть честным перед собой и другими.»",
+            "content_html": "\n  <p>\n    «Тот, кто призывает других к борьбе, но сам не готов разделить её тяготы, — не соратник, а трутень. Настоящий человек не прячется за чужими спинами, а идёт вперёд, даже если это стоит ему жизни. Только так можно быть честным перед собой и другими.»\n  </p>",
+            "author": {
+                "name": "Korchagin"
+            },
+            "tags": [
+                   "book"
+            ],
+            "date_published": "2025-09-23T21:41:25+03:00",
+            "date_modified": "2025-09-23T21:42:16+03:00"
+        },
+        {
             "id": "https://cyberflat.ru/garden-summer-2025/",
             "url": "https://cyberflat.ru/garden-summer-2025/",
             "title": "Garden. Summer 2025",
@@ -141,21 +156,6 @@
             ],
             "date_published": "2023-06-04T21:21:21+03:00",
             "date_modified": "2023-06-04T21:21:21+03:00"
-        },
-        {
-            "id": "https://cyberflat.ru/sanatoriy-solnechnyy/",
-            "url": "https://cyberflat.ru/sanatoriy-solnechnyy/",
-            "title": "Санаторий &quot;Солнечный&quot;",
-            "content_html": "\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-46-24.JPG\" data-size=\"4000x1800\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-46-24-thumbnail.JPG\" height=\"346\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-44-05.JPG\" data-size=\"4032x1816\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-44-05-thumbnail.JPG\" height=\"346\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-03.JPG\" data-size=\"4032x1816\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-03-thumbnail.JPG\" height=\"346\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-39.JPG\" data-size=\"4000x1800\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-39-thumbnail.JPG\" height=\"346\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-51-40.JPG\" data-size=\"4032x1816\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-51-40-thumbnail.JPG\" height=\"346\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-28-17-55-50.JPG\" data-size=\"1440x754\">\n        <img loading=\"lazy\" src=\"https://cyberflat.ru/media/posts/16/gallery/2022-05-28-17-55-50-thumbnail.JPG\" height=\"402\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure>\n    </div>\n  </div>",
-            "image": "https://cyberflat.ru/media/posts/16/2022-05-28-17-55-50.JPG",
-            "author": {
-                "name": "Korchagin"
-            },
-            "tags": [
-                   "holidays"
-            ],
-            "date_published": "2023-06-04T21:17:31+03:00",
-            "date_modified": "2023-06-04T21:17:31+03:00"
         }
     ]
 }

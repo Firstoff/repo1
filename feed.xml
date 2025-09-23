@@ -3,12 +3,36 @@
     <title>Cyberflat.ru</title>
     <link href="https://cyberflat.ru/feed.xml" rel="self" />
     <link href="https://cyberflat.ru" />
-    <updated>2025-09-22T22:45:43+03:00</updated>
+    <updated>2025-09-23T21:42:16+03:00</updated>
     <author>
         <name>Korchagin</name>
     </author>
     <id>https://cyberflat.ru</id>
 
+    <entry>
+        <title>Book 1</title>
+        <author>
+            <name>Korchagin</name>
+        </author>
+        <link href="https://cyberflat.ru/book-1/"/>
+        <id>https://cyberflat.ru/book-1/</id>
+            <category term="book"/>
+
+        <updated>2025-09-23T21:41:25+03:00</updated>
+            <summary>
+                <![CDATA[
+                    «Тот, кто призывает других к борьбе, но сам не готов разделить её тяготы, — не соратник, а трутень. Настоящий человек не прячется за чужими спинами, а идёт вперёд, даже если это стоит ему жизни. Только так можно быть честным перед собой и другими.»
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    «Тот, кто призывает других к борьбе, но сам не готов разделить её тяготы, — не соратник, а трутень. Настоящий человек не прячется за чужими спинами, а идёт вперёд, даже если это стоит ему жизни. Только так можно быть честным перед собой и другими.»
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Garden. Summer 2025</title>
         <author>
@@ -522,60 +546,6 @@
     </figure><figure class="gallery__item">
       <a href="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-43.JPG" data-size="4032x2268">
         <img loading="lazy" src="https://cyberflat.ru/media/posts/17/gallery/2022-06-06-14-52-43-thumbnail.JPG" height="432" width="768" alt="" >
-      </a>
-      
-    </figure>
-    </div>
-  </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Санаторий &quot;Солнечный&quot;</title>
-        <author>
-            <name>Korchagin</name>
-        </author>
-        <link href="https://cyberflat.ru/sanatoriy-solnechnyy/"/>
-        <id>https://cyberflat.ru/sanatoriy-solnechnyy/</id>
-        <media:content url="https://cyberflat.ru/media/posts/16/2022-05-28-17-55-50.JPG" medium="image" />
-            <category term="holidays"/>
-
-        <updated>2023-06-04T21:17:31+03:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://cyberflat.ru/media/posts/16/2022-05-28-17-55-50.JPG" class="type:primaryImage" alt="" /></p>
-                
-  <div  class="gallery-wrapper">
-    <div class="gallery" data-columns="3">
-      <figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-46-24.JPG" data-size="4000x1800">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-46-24-thumbnail.JPG" height="346" width="768" alt="" >
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-44-05.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-44-05-thumbnail.JPG" height="346" width="768" alt="" >
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-03.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-03-thumbnail.JPG" height="346" width="768" alt="" >
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-39.JPG" data-size="4000x1800">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-48-39-thumbnail.JPG" height="346" width="768" alt="" >
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-51-40.JPG" data-size="4032x1816">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-24-09-51-40-thumbnail.JPG" height="346" width="768" alt="" >
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://cyberflat.ru/media/posts/16/gallery/2022-05-28-17-55-50.JPG" data-size="1440x754">
-        <img loading="lazy" src="https://cyberflat.ru/media/posts/16/gallery/2022-05-28-17-55-50-thumbnail.JPG" height="402" width="768" alt="" >
       </a>
       
     </figure>
