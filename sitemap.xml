@@ -101,10 +101,6 @@
 <lastmod>2025-08-13T00:36:34+03:00</lastmod>
 </url>
 <url>
-<loc>https://cyberflat.ru/book-1/</loc>
-<lastmod>2025-09-23T21:42:16+03:00</lastmod>
-</url>
-<url>
 <loc>https://cyberflat.ru/cats-watching-tv/</loc>
 <lastmod>2023-06-04T23:26:35+03:00</lastmod>
 <image:image>
@@ -814,6 +810,14 @@
 </image:image>
 <image:image>
 <image:loc>https://cyberflat.ru/media/posts/29/photo_2023-09-24_19-22-16.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://cyberflat.ru/vnimanie-torgi-bezumnye-torgi/</loc>
+<lastmod>2026-02-21T00:43:46+03:00</lastmod>
+<image:image>
+<image:loc>https://cyberflat.ru/media/posts/37/IMG_20260221_003229.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
